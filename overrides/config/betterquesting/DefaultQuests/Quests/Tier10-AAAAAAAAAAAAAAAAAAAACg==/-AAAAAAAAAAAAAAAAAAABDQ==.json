@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 268
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "共鳴率が及ぼす影響について詳しく説明します\n\nまず共鳴率をrと置きます\n\nCA凝縮機は1つの反物質の種から生産できる反物質が\nlog(r) + 1 個 (log(x)は自然対数)\nになります\n対数を取るので、共鳴率が高くできるなら反物質の生産は共鳴型反物質収集機の方が強くなります\n\nCA注入機は加工時間が\nr^a 分の1 (aはCA注入機のtierごとに設定された数)\nになります\nまたaの値は、\ntier 9が0.2\ntier 10が0.9\ntier 11以降が1.0\nになります\n\n共鳴型反物質収集機は反物質が生産される速度が\nfloor(r-1) / 10000 個/tick (floor(x)はxの小数点以下を切り捨てた数)\nになります\n共鳴率が2を超えないと生産が開始されません\nTier 9の反物質共鳴装置で生産を開始するには10個必要になります",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "OreDict:8": "",
+        "id:8": "clayium:blockResonator"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "共鳴率について(内部計算のお話)",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 269,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 460
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "精錬機ではこの倍率が適用されます\nそれぞれ左からTier、クラフト時間、時間当たり消費エネルギー倍率、総消費エネルギー倍率です\nなお精錬機はバニラのかまど精錬もできるため、バニラかまどの精錬時間をTier vとしてあります\n\nv | 1 | x1 | 1\n4 | 2 | x1 | 2.0\n5 | 1/2 | x14 | 7.0\n6 | 1/8 | x200 | 25.0\n7 | 3/100 | x2800 | 84.0\n8 | 1/100 | x40000 | 400.0\n9 | 1/400 | x560000 | 1400.0\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockBasicSmelter"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "精錬機",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 462,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

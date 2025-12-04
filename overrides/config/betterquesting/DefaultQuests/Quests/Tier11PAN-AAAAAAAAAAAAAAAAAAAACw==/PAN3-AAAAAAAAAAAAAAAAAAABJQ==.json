@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 292
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "もちろんClayium機械のレシピも登録できます\n\n試しに塩と工業用粘土粉を使ってクォーツの粉を作れる化学反応機のレシピを登録してみましょう\nこのレシピはTier 8のレシピなので、当然化学反応機もTier 8以上のものを用意しましょう\n\n次に、§l素材の置き場所に注意§rしましょう\nNEIで確認できるレシピの素材部分は、§l右側から§r順に1,2,3,4…と番号が続きます\nPANアダプターの素材スロットには左上から\n1 2 3\n4 5 6\n7 8 9\nと番号が付いています\n素材は対応する番号のところに置くようにしないとレシピが登録されません",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockClayBendingMachine"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "PAN について 3",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 293,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

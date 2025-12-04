@@ -1,0 +1,19 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "私が作りました(生産者表示)\nQoLを改善するレシピやアイテムを追加しています\nバグなどありましたらCurseForgeのIssuesからGitHubのIssuesにて報告していただけると助かります",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 68,
+        "OreDict:8": "",
+        "id:8": "clayium:itemClayParts"
+      },
+      "name:8": "Clayium Additions",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questLineIDHigh:4": 8780191238742098189,
+  "questLineIDLow:4": -9180256657424087961
+}

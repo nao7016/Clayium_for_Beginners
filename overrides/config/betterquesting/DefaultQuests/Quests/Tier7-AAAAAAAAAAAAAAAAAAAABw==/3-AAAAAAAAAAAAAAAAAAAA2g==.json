@@ -1,0 +1,46 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 246
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 217
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "§2緑粘土レーザー§0§rは4CE/tを消費します\n\n22本以上の緑粘土レーザーを束ねたときのエネルギー値は\n300 × n (nはレーザーの本数)\nに収束します\n\n色の違うレーザーを束ねると、その色単体のエネルギー値の積をレーザーのエネルギー値として算出します\n\n例えば\n青粘土レーザーを50本束ねたときのエネルギー値は49,999\n緑粘土レーザーを50本束ねたときのエネルギー値は14,999\nですが、この2つのレーザーを束ねたときのエネルギー値は\n49,999 × 14,999 \u003d 749,935,001\nとなり、おおよそ750Mとなります\n\nここから先は色の違うレーザーを束ねることでエネルギー値を増大させていくことになります\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockClayiumClayEnergyLaser"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "レーザーについて 3",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "UNLOCKED"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 218,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

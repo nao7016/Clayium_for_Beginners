@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 294
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "注意点\n\n次のアイテムは最初のリストに登録されてませんが、複製できません\n・純反物質\n・各種圧縮純反物質\n・リストに登録されている(上二つ含む)、赤背景のアイテムに戻せるもの(各種粉など)\n・粉砕機で上の各種粉にできる素材(プレートなど)\n\n作業台レシピの場合、自動クラフト装置や他modの作業台系ブロックに隣接させても登録されません\nかまどレシピの場合、Clayiumの精錬機では登録されません(精錬機特有の精錬レシピのみ登録可能)\n\nマルチブロック系機械の場合、マルチブロックを構成させないとレシピが登録できません\nまたTierによって消費エネルギーや加工速度が変わる場合、それも反映されます\n\n粘土反応炉の場合、PANアダプターのGUIの下にある9スロットにレーザーを置くことで、そのレーザーが照射されたものとしてコスト計算します\nその時、レーザーのコストも反映されます\n白粘土レーザーはコスト面から使う意味がないため、使うことができません\n\n反物質反応炉の場合、反応炉コアにアダプターを接続するとレシピを登録できます\n生成物や消費エネルギーなどは反応炉のランクや大きさによって変化しますが、それも反映されます\n\nレシピが登録されない場合、それがちゃんとしたレシピで登録されているか、隣接している機械はあっているか確認しましょう\n特に素材の順番間違いが非常に多いです 出来ないと思ったらまずは素材の順番を入れ替えてみるのがいいでしょう",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockBasicPANDuplicator"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "PAN について 5",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 295,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

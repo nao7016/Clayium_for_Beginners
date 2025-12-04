@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 278
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "反応炉の性能や消費CEの倍率は筐体の数とランクの平均で決まります\n\n生産される純反物質の圧縮回数 \u003d 平均ランクの整数部分 - 1 (回)\n生産速度倍率 \u003d (7.5 ^ 平均ランク) × (1.02 ^ 筐体の数)\n消費CE倍率 \u003d 1.01 ^ (平均ランク × 筐体の数)\n\n生産される純反物質の圧縮回数については、\n筐体のランクが全て1上がることに、純反物質が1回圧縮された状態で生産されます\n生産された純反物質のスペース節約になるほか、後述する生産速度倍率を無駄にしないように出来ます\n\n生産速度倍率については、\n反応炉がでかくなればなるほど生産速度が上昇します\nちなみに元の速度はNEIに書いてある通りの300 tickとなります\nまた、この速度は圧縮されていない純反物質の速度になります\n純反物質が圧縮された状態で生産される場合、元の純反物質に換算した個数で計算されます\n要は圧縮回数が1あげることに速度が1/9になります\n\n消費CE倍率については、\n反応炉がでかくなればなるほど消費CEが多くなります\nちなみに元の消費CEはNEIに書いてある通りの100 CE/tになります\n消費CEが大きくなりすぎるとエネルギー粘土の制約上反応炉が稼働できなくなります\n\nまとめると\n反応炉がでかくなればなるほど生産速度や消費CEが上がり、\n筐体のランクが上がれば上がるほど純反物質の圧縮回数や消費CEが上がり、\n消費CEを大きくしすぎると反応炉が稼働できなくなります\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:book"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "反物質反応炉について 2",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 279,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

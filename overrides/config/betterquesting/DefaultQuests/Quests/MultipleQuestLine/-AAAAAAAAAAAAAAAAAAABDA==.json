@@ -1,0 +1,55 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 266
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "装置を中心とした5x5x5の機械の共鳴率をあげます\n複数設置すると乗算、つまり掛け算されます\n\n共鳴率は\n・CA凝縮機\n・CA注入機\n・共鳴型反物質収集機\nの3つの機械が持っています\n\n共鳴率が上がるとそれぞれ\n・CA凝縮機は1つの反物質の種から作成できる反物質が増え、\n・CA注入機は加工時間が短くなり、\n・共鳴型反物質収集機は2以上で反物質の生産が始まり、それ以上は生産時間が短くなります\n\n(もっと詳しい話を知りたい人は次の「共鳴率について」も読んでみましょう)\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "OreDict:8": "",
+        "id:8": "clayium:blockResonator"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "反物質共鳴装置",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 268,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "clayium:blockResonator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

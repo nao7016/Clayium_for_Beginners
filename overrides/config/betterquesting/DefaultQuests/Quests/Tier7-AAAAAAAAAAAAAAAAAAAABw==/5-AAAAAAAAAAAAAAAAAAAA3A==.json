@@ -1,0 +1,46 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 219
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 267
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "§l白粘土レーザー§rは§1青粘土レーザー§r、§2緑粘土レーザー§r、§4赤粘土レーザー§rを3本ずつまとめたレーザーを照射します\n400CE/tを消費します\n\nCE効率は最悪ですが、これを使えばレーザーのスペースを節約したり、レーザーの本数を増やすことができます",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockAntimatterClayEnergyLaser"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "レーザーについて 5",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "UNLOCKED"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 220,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

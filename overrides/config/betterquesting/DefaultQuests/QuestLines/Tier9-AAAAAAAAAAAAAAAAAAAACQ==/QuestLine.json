@@ -1,0 +1,19 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "来るとこまで来た",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "OreDict:8": "",
+        "id:8": "clayium:blockMachineHull"
+      },
+      "name:8": "Tier 9 - 反物質を作ろう",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 9
+}

@@ -1,0 +1,78 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 360
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 361
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 362
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 364
+    },
+    "4:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 365
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Clayium攻略おめでとう！！！！！！！！",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "OreDict:8": "",
+        "id:8": "clayium:itemClayParts"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Clayium 100%",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 366,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:clay_ball",
+          "tag:10": {
+            "RepairCost:3": 2,
+            "display:10": {
+              "Name:8": "Clayium 100%"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

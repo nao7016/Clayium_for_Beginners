@@ -1,0 +1,50 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 274
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 276
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 277
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "反物質から純反物質を精製する機械です\n\nコイルを輪の形に置き、その周りを反物質反応炉筐体で囲み、そのうちの一つを反物質反応炉コアに置き換えれば完成です\n\n構成例:\n1段目     2段目   3段目\n          §1 XXX\n  §1XXX     X§bCCC§1X     XXX\n X   X   X§3§bC§1XXX§bC§1X   X   X  \nX     X X§bC§1X   §3§1X§bC§1X X     X \nX     X X§bC§1X   X§bC§1X X     X \nX     X X§bC§1X   §1§b§1X§bC§1X X     X \n X   X   X§bC§1XXX§bC§1X   X   X\n  XXX     X§bCCC§1X     XXX\n           X§3R§1X\n\n§1X§r \u003d 反物質反応炉筐体 or インターフェース\n§bC§r \u003d 反物質反応炉コイル\n§3R§r \u003d 反物質反応炉コア\n\nXはインターフェースでもいいですが、筐体の数が50個以上でないといけないため、筐体の減らしすぎには注意しましょう\nまた、反応炉コアのTierより低いTierのインターフェースは使えません\n\nこの構成例だと\nX \u003d 63個\nC \u003d 16個\nR \u003d 1個\nになります\n\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:book"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "反物質反応炉について 1",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 278,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

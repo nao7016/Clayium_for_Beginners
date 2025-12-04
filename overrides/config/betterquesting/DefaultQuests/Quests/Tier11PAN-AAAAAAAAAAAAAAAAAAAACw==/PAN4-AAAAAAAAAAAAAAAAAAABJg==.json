@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 293
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "コスト計算についてですが、これは単純です\n計算式は\n素材の複製エネルギーの合計 + 加工にかかるエネルギー \u003d 加工後アイテムの複製エネルギー\nとなります\n\n例えば工業用粘土を粉砕して工業用粘土粉を作るレシピを登録するとします\n工業用粘土1つを粉砕するときにかかるエネルギーは10uCE/t × 12t \u003d 120uCEです\nそして工業用粘土の複製エネルギーは(複製はできませんが)1つ 10mCEです\nなので工業用粘土粉は1つにつき\n10mCE (\u003d 10,000uCE) + 120uCE \u003d 10,120uCE \u003d 10.12mCE\nとなるはずです\n\nですが、実はTierによってエネルギー効率は違います\n粉砕機、遠心分離機、コンデンサーはTier 5, 6, 10で変動します\n例えばさっきの工業用粘土粉のレシピにTier 6の粉砕機を使ったとします\nTier 6の機械は普通の機械に比べてクラフト時間を16分の1に、消費CE/tを25倍にします\nなので、10uCE/t × 12t \u003d 120uCEのレシピをTier 6の機械で加工すると\n§n250uCE/t × 1t \u003d 250uCE§r\nと、消費エネルギーが増加します\n\nこれはPANの複製にも影響します\nTier 6の粉砕機を使って工業用粘土粉をPANに登録すると、複製エネルギーが10.25mCEになります\n今回はエネルギーがそこまで変わらないのであまり影響はないですが、登録の仕方でかなり影響の出るレシピも存在します\n\n作業台の場合、加工にかかるエネルギーは一律100uCEです\nかまどの場合、加工にかかるエネルギーは一律8mCEです\n\nまた、1回のクラフトで複数のアイテムが出来る場合、複製エネルギーはその数で割って計算します\n例えばオークの原木からオークの木材にクラフトしたとき、複製エネルギーは\n(10uCE + 100uCE) / 4 \u003d 27.5uCE\nになります",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": "",
+        "id:8": "clayium:blockCompressedClay"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "PAN について 4",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 294,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

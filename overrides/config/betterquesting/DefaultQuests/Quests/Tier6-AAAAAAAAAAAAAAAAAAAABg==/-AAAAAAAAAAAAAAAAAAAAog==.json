@@ -1,0 +1,67 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 157
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "1段目\nX X X\nX X X\nX C X\n\n2段目\nX X X\nX X X   X \u003d マシン筐体orインターフェース\nX X X   C \u003d 粘土高炉ブロック\n\n初めてのマルチブロック機械です しっかりと確認して組み立てましょう\nインターフェースは普通の機械と同じように搬入出設定ができます\n素材の搬入口とエネルギー粘土の搬入口は分けたほうが無難です\n\n粘土高炉は構成するマシン筐体やインターフェースのおおよそ平均でTierが決まります\nつまりマシン筐体を高TierにするとTierが上がります 覚えておきましょう\n今回はTier 6になっていたら成功です",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:sign"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "粘土高炉の組み立て",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 162,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 14,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "clayium:blockMachineHull"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "clayium:blockPrecisionClayInterface"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "clayium:blockClayBlastFurnace"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

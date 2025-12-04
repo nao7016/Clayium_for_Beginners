@@ -1,0 +1,46 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 218
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 252
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "§4赤粘土レーザー§rは、40CE/tを消費します\n\n22本以上の赤粘土レーザーを束ねたときのエネルギー値は\n100 × n (nはレーザーの本数)\nに収束します\n\nレーザーについて 3で例に挙げた、青粘土レーザーと緑粘土レーザーを50本ずつ束ねたレーザーに、赤粘土レーザー50本を追加で束ねることを考えます\n赤粘土レーザーを50本束ねたときのエネルギー値は4,998になります\nよってエネルギー値は\n49,999 × 14,999  × 4,998 \u003d 3,748,175,134,998\nとなり、おおよそ3.75Tとなります\n\n実際の運用としては、\n§1青粘土レーザー§rを§r多めに、§2緑粘土レーザー§rと§4赤粘土レーザー§rを同程度並べるような構成が効率がいいです\n\nエネルギー値が伸びないと思った時は、リフレクターの上限に引っかかっていないかを確認してみましょう",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockUltimateClayEnergyLaser"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "レーザーについて 4",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "UNLOCKED"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 219,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

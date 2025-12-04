@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 214
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "粘土反応炉は他の機械と同じく、素材とエネルギー粘土を供給すれば動きます\nただし、粘土反応炉のクラフトは軒並みかかる時間がとてつもなく多いです\n\n例えば、リチウムの粉と活性化粘土粉8つから作られる励起粘土粉があります\nこれは粘土反応炉で2Mt(\u003d 2,000,000)、つまり27.8分程度の時間がかかります\nさらに先の加工では4Gt(\u003d 4,000,000,000)、つまり6年とちょっとの時間がかかるクラフトもあります\n\nしかし、レーザーをレーザーインターフェースに照射すると、レーザーの(エネルギー値)tick分だけ加工を加速します\n(エネルギー値については次で説明します)\nレーザーでエネルギーを供給しているわけではないので、エネルギー粘土は別途供給しましょう\n\n例えばレーザーのエネルギー値が1,000だった場合を考えます\n励起粘土粉のクラフト時間は2Mtでしたが、レーザーを照射すると\n1tickに1 + (エネルギー値 \u003d 1,000) \u003d 1,001 tick 進むことになります\nつまり実際の加工時間が2,000,000 / 1,001でおおよそ2,000tick、つまり100秒程度に短縮することができます\n\n粘土反応炉のクラフト速度はレーザーが命です\nクラフトが遅いな、と思ったらレーザーを見直してみるといいかもしれません",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockClaySteelLaserClayInterface"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "粘土反応炉について 2",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 215,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 215
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "レーザーリフレクターはレーザーの方向を変えることができます\nまた、1つのリフレクターに複数のレーザーを照射すると1本に束ねたりすることができます\nただし、10個のリフレクターを通ったレーザーはそれ以上レーザーを追加で束ねることはできません\n11個以上でもレーザーを通すことはできますが、レーザーの本数は合計されるのではなく、照射されたレーザーの最大値を取ります\n要約すると(同色の)レーザーをまとめるならリフレクターが10個の部分までにしましょう\n\nレーザーには固有の§lエネルギー値§rというものがあります\n粘土エネルギーとはまた別の概念です\nエネルギー値はレーザーの数に基づいて固有の計算式によって算出されます\nかなり複雑なので計算式を乗せることはできませんが、簡単に説明すると\n・10本までは指数関数的に増加\n・21本までは増加量の緩やかな減衰\n・22本以上はほぼ比例\nとなっています\n\nまた、粘土反応炉以外にも以下の機械にもレーザーを当てると動作が早くなります\n計算的にはエネルギー値のほぼ対数を取るため、速度が1万倍になるようなことはありません\n\n対応する機械\n・採掘機\n・範囲採掘機\n・発展型範囲採掘機\n・範囲置換機\n・代行機\n・範囲代行機\n・範囲収集機\n\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockLaserReflector"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "レーザーについて 1 / 粘土反応炉について 3",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 216,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

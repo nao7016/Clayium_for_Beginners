@@ -1,0 +1,54 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 288
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 289
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 290
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 287
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "PANは他のmodで言うとAE2やRSのようなものです\n\nまずはPANコアとPAN複製機をPANケーブルでつないでPANコアを見てみましょう\nいろんなアイテムが表示されていますが、これはPAN複製機で複製可能なアイテム一覧です\n§lただし、赤背景のアイテムは複製することができません§l§0§r(主に粘土やエネルギー粘土、反物質)\nというわけで、現状では丸石とオークの原木、そして各種不純な金属の粉を複製することができます\n\n丸石で一度試してみましょう\nPAN複製機を開いて複製元のアイテム(今回は丸石、1つでOK)と複製時に消費される反物質を入れます\n恐らく動かないと思います 当然複製にはエネルギーが必要になります\nPANコアのGUIから丸石を見てみると、恐らく10uCEと書かれていると思います\nこれは複製の時に必要なエネルギーの量です\n今回の丸石1つの場合、10uCEが必要になるということです\nというわけでPAN複製機にエネルギーを供給してあげましょう 複製が始まったはずです\n\nPANコアに表示されているアイテムについてはこれで複製ができます",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockPANCable"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "PAN について 1",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 291,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

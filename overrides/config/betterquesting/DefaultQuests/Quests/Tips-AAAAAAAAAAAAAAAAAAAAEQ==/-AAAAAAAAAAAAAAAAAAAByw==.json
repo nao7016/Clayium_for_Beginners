@@ -1,0 +1,37 @@
+{
+  "preRequisites:9": {},
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "エネルギー粘土は9個で圧縮することができます\nその際、エネルギーは10倍になるので、基本的には圧縮刺せればさせるほど、粘土あたりのエネルギー効率は良くなります\nただし、圧縮させたエネルギー粘土は戻すことはできないので、取り回しが悪くなるほかに、\n機械を壊してしまうと内部のエネルギーが失われてしまうので、残った分が無駄になってしまうことがあります\n\n圧縮は計画的に",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": "",
+        "id:8": "clayium:blockCompressedClay"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "エネルギー粘土の効率について",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 459,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

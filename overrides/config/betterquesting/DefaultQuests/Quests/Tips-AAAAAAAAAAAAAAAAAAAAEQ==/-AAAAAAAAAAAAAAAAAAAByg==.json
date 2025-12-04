@@ -1,0 +1,37 @@
+{
+  "preRequisites:9": {},
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Clayiumの機械は、同種の機械であれば§nCtrl+右クリック§rでそのまま機械の置換をすることができます\nその際、中身のアイテムやエネルギー粘土は散らばりますが、§n搬出入設定や内部のエネルギーはそのまま保存されます\n\n§rただし、その機械が§nタイルエンティティ§rでないと置換することはできません\nタイルエンティティであるかどうかは、\n・パイプ化できるかどうか\n・搬出入設定があるかどうか\nという点で判断することができます\n例えば、マシン筐体はパイプ化できない\u003dタイルエンティティでないので置換することはできません\n\n§r機械の更新をするときとかに便利だね",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:itemClayWrench"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "機械の置換について",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 458,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
