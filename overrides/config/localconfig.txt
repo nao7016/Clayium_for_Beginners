@@ -7,3 +7,7 @@
 # Full Example #1: trashslot.cfg/general/trashSlotX
 # Full Example #2: [eirairc/client.cfg]/notifications/notificationSoundVolume
 # Also see the localconfig-example.txt for a collection of presets for commonly used mods.
+
+[NEI/collapsibleitems.cfg]/* $format=simple
+[NEI/hiddenitems.cfg]/* $format=simple
+[veinminer/tools-and-blocks.json]/* $format=simple
