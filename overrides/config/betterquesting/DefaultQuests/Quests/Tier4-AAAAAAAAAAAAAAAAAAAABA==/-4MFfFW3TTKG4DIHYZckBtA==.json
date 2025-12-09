@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 99
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "§n§r機械にエネルギー粘土を搬入したいとき、§n§e§n§6§m§m§n§r§n§6§n搬入設定で黄色になっている面§r§e§e§rにチェストを置いてそこにエネルギー粘土を入れると自動搬入されます\nまた、特にチェストだけでなくホッパーや各種バッファーなどインベントリを持つブロックであればそこから自動搬入してくれます\n\n搬入されたエネルギー粘土は、使用前であれば機械のGUIでShiftを押すと見ることができます\nまた、使用前であれば機械を壊せば取り出すことができます",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": "",
+        "id:8": "clayium:blockCompressedClay"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "エネルギー粘土の搬入について",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": -2251413793067021151,
+  "questIDLow:4": -5184626304589692492,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
