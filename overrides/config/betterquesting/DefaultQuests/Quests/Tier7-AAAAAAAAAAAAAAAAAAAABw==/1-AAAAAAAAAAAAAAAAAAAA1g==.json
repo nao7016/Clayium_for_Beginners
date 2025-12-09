@@ -20,7 +20,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "粘土反応炉の組み立て方\n1段目   2段目  3段目\nX X X   X X X   X X X\nX X X   X X X   X L X\nX X X   X R X   X X X\n\nX \u003d マシン筐体 or インターフェース\nR \u003d 粘土反応炉ブロック\nL \u003d レーザーインターフェース\n\n3x3x3のマルチブロックです 組立間違いがないようにしましょう\n粘土高炉と同じく、構成するマシン筐体やインターフェース、レーザーインターフェースのほぼ平均で粘土反応炉のTierが上がります\n今回はTier 7になっていれば成功です",
+      "desc:8": "粘土反応炉の組み立て方\n1段目   2段目  3段目\nX X X   X X X   X X X\nX X X   X X X   X L X\nX X X   X R X   X X X\n\nX \u003d マシン筐体 or インターフェース\nR \u003d 粘土反応炉ブロック\nL \u003d レーザーインターフェース\n\n3x3x3のマルチブロックです 組立間違いがないようにしましょう\n粘土高炉と同じく、構成するマシン筐体やインターフェース、レーザーインターフェースのほぼ平均で粘土反応炉のTierが上がります\n今回はTier 7になっていれば成功です\n\n[img height\u003d50]clayium_for_beginners:clay_reactor_1.png[/img]\n[img height\u003d50]clayium_for_beginners:clay_reactor_2.png[/img]\n[img height\u003d50]clayium_for_beginners:clay_reactor_3.png[/img]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

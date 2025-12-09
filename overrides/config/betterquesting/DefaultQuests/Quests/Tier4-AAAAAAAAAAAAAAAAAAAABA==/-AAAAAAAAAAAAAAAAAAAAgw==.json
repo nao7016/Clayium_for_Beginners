@@ -1,14 +1,14 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 128
+      "questIDHigh:4": -8769371687246936985,
+      "questIDLow:4": -6384049854637598140
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "ネザークォーツ粉砕すれば…ってこれTier 5からじゃん！",
+      "desc:8": "ネザークォーツ粉砕すれば…ってこれTier 5からじゃん!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

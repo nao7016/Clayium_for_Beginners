@@ -1,0 +1,37 @@
+{
+  "preRequisites:9": {},
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "バッファーは搬入口から自動搬入でき、また搬出口から自動搬出できます\nでは自動搬出しようとしているバッファーの中身を自動搬入しようとするとどちらが勝つでしょうか?\n\n答えは§nほぼ同時に搬出されるが、自動搬出のほうが先に搬出される§rです\n要は搬出のほうが優先度が高いです\n\nこれを使うと、例えばエネルギー粘土が循環しているバッファーに機械を付けてそちらに搬出口を設定しておけば、エネルギー粘土がちゃんと搬入される、といった仕組みを構築可能です\n\n詳しくはWikiをみてね\n\n[img height\u003d100]clayium_for_beginners:baffer_loop.png[/img]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockBasicBuffer"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "バッファーの物流制御",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 2484580618561735568,
+  "questIDLow:4": -6335660237229429225,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
