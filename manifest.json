@@ -10,13 +10,18 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Clayium for Biginners",
-  "version": "0.1.0",
+  "name": "Clayium for Beginners",
+  "version": "0.1.2",
   "author": "",
   "files": [
     {
       "projectID": 250398,
       "fileID": 5507281,
+      "required": true
+    },
+    {
+      "projectID": 688899,
+      "fileID": 7298125,
       "required": true
     },
     {
@@ -45,8 +50,13 @@
       "required": true
     },
     {
+      "projectID": 706505,
+      "fileID": 6596614,
+      "required": true
+    },
+    {
       "projectID": 746279,
-      "fileID": 7218526,
+      "fileID": 7298241,
       "required": true
     },
     {
@@ -77,11 +87,6 @@
     {
       "projectID": 73488,
       "fileID": 2230518,
-      "required": true
-    },
-    {
-      "projectID": 277634,
-      "fileID": 2478420,
       "required": true
     },
     {
@@ -126,7 +131,7 @@
     },
     {
       "projectID": 688894,
-      "fileID": 7285448,
+      "fileID": 7298769,
       "required": true
     },
     {
