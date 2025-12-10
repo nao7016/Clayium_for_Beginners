@@ -1,3 +1,3 @@
-[![](http://cf.way2muchnoise.eu/1397735.svg)](https://minecraft.curseforge.com/modpacks/clayium-for-beginners)
+[![](http://cf.way2muchnoise.eu/1397735.svg)](https://www.curseforge.com/minecraft/modpacks/clayium-for-beginners)
 
-[Clayium for Beginners!](https://minecraft.curseforge.com/modpacks/clayium-for-beginners)
+[Clayium for Beginners!](https://www.curseforge.com/minecraft/modpacks/clayium-for-beginners)
