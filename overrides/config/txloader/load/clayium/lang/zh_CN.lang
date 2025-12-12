@@ -1,0 +1,1168 @@
+#
+itemGroup.Clayium=粘土工业
+itemGroup.ClayiumCapsule=液体胶囊
+
+tooltip.HoldShiftForDetails=--§f按住 §lShift§r 查看详情§7--
+
+gui.Common.energy=%1$sCE
+gui.Common.tier=Tier %1$d
+gui.Common.clayLaser=雷射 : %1$s
+gui.Common.resonance=谐振 %1$s
+gui.Common.overclockFactor=超频 x%1$s
+
+recipe.ClayWorkTable=粘土工作台
+
+recipe.BendingMachine=粘土弯曲器
+recipe.WireDrawingMachine=粘土拆解器
+recipe.PipeDrawingMachine=粘土碾轧机
+recipe.CuttingMachine=粘土切割机
+recipe.Lathe=粘土车床
+recipe.MillingMachine=粘土成型机
+
+recipe.Condenser=粘土压缩机
+recipe.Grinder=粘土研磨机
+recipe.Decomposer=粘土分解器
+
+recipe.ECCondenser=充能粘土压缩机
+recipe.Assembler=粘土装配台
+recipe.Inscriber=粘土刻录仪
+recipe.Centrifuge=粘土离心机
+
+recipe.Smelter=粘土冶炼厂
+
+recipe.ChemicalReactor=粘土化学反应堆
+recipe.BlastFurnace=粘土高炉
+recipe.ElectrolysisReactor=粘土电解反应堆
+recipe.Reactor=粘土反应堆
+
+recipe.AlloySmelter=合金冶炼厂
+recipe.ChemicalMetalSeparator=化学金属分离器
+recipe.MatterTransformer=物质转换仪
+
+recipe.CACondenser=CA 聚合器
+recipe.CAInjector=CA 注入室
+recipe.CAReactor=CA 反应堆
+
+recipe.ECDecomposer=充能粘土分解器
+
+recipe.FluidTransferMachine=液体传输器
+
+tile.blockClayOre.0.name=粘土矿石
+tile.blockClayOre.1.name=密集粘土矿石
+tile.blockClayOre.2.name=高密度粘土矿石
+
+tile.blockCompressedClay.0.name=密集粘土
+tile.blockCompressedClay.1.name=压缩粘土
+tile.blockCompressedClay.2.name=工业粘土
+tile.blockCompressedClay.3.name=高级工业粘土
+tile.blockCompressedClay.4.name=充能粘土
+tile.blockCompressedClay.5.name=压缩充能粘土
+tile.blockCompressedClay.6.name=二重压缩充能粘土
+tile.blockCompressedClay.7.name=三重压缩充能粘土
+tile.blockCompressedClay.8.name=四重压缩充能粘土
+tile.blockCompressedClay.9.name=五重压缩充能粘土
+tile.blockCompressedClay.10.name=六重压缩充能粘土
+tile.blockCompressedClay.11.name=七重压缩充能粘土
+tile.blockCompressedClay.12.name=八重压缩充能粘土
+
+tile.blockRawClayMachineHull.0.name=未加工的粘土机械外壳
+tile.blockMachineHull.0.name=粘土机械外壳
+tile.blockMachineHull.1.name=密集粘土机械外壳
+tile.blockMachineHull.2.name=简易机械外壳
+tile.blockMachineHull.3.name=基础机械外壳
+tile.blockMachineHull.4.name=高级机械外壳
+tile.blockMachineHull.5.name=精密机械外壳
+tile.blockMachineHull.6.name=粘土钢机械外壳
+tile.blockMachineHull.7.name=工业机械外壳
+tile.blockMachineHull.8.name=终极机械外壳
+tile.blockMachineHull.9.name=反物质机械外壳
+tile.blockMachineHull.10.name=高纯反物质机械外壳
+tile.blockMachineHull.11.name=OEC机械外壳
+tile.blockMachineHull.12.name=OPA机械外壳
+
+#tile.blockOthersHull.0.name=AZ91D合金外壳
+#tile.blockOthersHull.1.name=ZK60A合金外壳
+tile.blockAZ91DHull.name=AZ91D合金外壳
+tile.blockZK60AHull.name=ZK60A合金外壳
+
+tile.blockClayWorkTable.name=粘土工作台
+tile.blockClayWorkTable.tooltip.line1=粘土工业入门第一步！
+tile.blockClayCraftingTable.name=粘土合成板
+tile.blockClayCraftingTable.tooltip.line1=一个方便的合成板
+tile.blockClayCraftingTable.tooltip.line2=__细节__
+tile.blockClayCraftingTable.tooltip.line3=你可以通过它访问附近的容器(当你连着箱子的时候就会有类似林业工作台的效果)
+
+tile.blockElementalMillingMachine.name=基础成型机
+tile.blockElementalMillingMachine.tooltip.line1=获得第一个粘土电路板
+tile.blockEnergeticClayCondenser.name=充能粘土压缩机 Mk I
+tile.blockEnergeticClayCondenser.tooltip.line1=获得第一个充能粘土
+tile.blockEnergeticClayCondenserMK2.name=充能粘土压缩机 Mk II
+
+tile.blockClayBendingMachine.name=粘土弯曲器
+tile.blockClayBendingMachine.tooltip.line1=第一台机器.
+tile.blockDenseClayBendingMachine.name=密集粘土弯曲器
+tile.blockSimpleBendingMachine.name=简易弯曲器
+tile.blockBasicBendingMachine.name=基础弯曲器
+tile.blockAdvancedBendingMachine.name=高级弯曲器
+tile.blockPrecisionBendingMachine.name=精密弯曲器
+tile.blockClaySteelBendingMachine.name=粘土钢弯曲器
+tile.blockUltimateBendingMachine.name=终极弯曲器
+
+tile.blockClayWireDrawingMachine.name=粘土拆解器
+tile.blockDenseClayWireDrawingMachine.name=密集粘土拆解器
+tile.blockSimpleWireDrawingMachine.name=简易拆解器
+tile.blockBasicWireDrawingMachine.name=基础拆解器
+
+tile.blockClayPipeDrawingMachine.name=粘土碾轧机
+tile.blockDenseClayPipeDrawingMachine.name=密集粘土碾轧机
+tile.blockSimplePipeDrawingMachine.name=简易碾轧机
+tile.blockBasicPipeDrawingMachine.name=基础碾轧机
+
+tile.blockClayCuttingMachine.name=粘土切割机
+tile.blockDenseClayCuttingMachine.name=密集粘土切割机
+tile.blockSimpleCuttingMachine.name=简易切割机
+tile.blockBasicCuttingMachine.name=基础切割机
+
+tile.blockClayLathe.name=粘土车床
+tile.blockDenseClayLathe.name=密集粘土车床
+tile.blockSimpleLathe.name=简易车床
+tile.blockBasicLathe.name=基础车床
+
+tile.blockClayCobblestoneGenerator.name=粘土造石机
+tile.blockDenseClayCobblestoneGenerator.name=密集粘土造石机
+tile.blockSimpleCobblestoneGenerator.name=简易造石机
+tile.blockBasicCobblestoneGenerator.name=基础造石机
+tile.blockAdvancedCobblestoneGenerator.name=高级造石机
+tile.blockPrecisionCobblestoneGenerator.name=精密造石机
+tile.blockClaySteelCobblestoneGenerator.name=粘土钢造石机
+
+tile.blockDenseClayCondenser.name=密集粘土压缩机
+tile.blockSimpleCondenser.name=简易压缩机
+tile.blockBasicCondenser.name=基础压缩机
+tile.blockAdvancedCondenser.name=高级压缩机
+tile.blockAntimatterCondenser.name=反物质压缩机
+
+tile.blockDenseClayGrinder.name=密集粘土研磨机
+tile.blockDenseClayGrinder.tooltip.line1=研磨你的粘土矿石.
+tile.blockSimpleGrinder.name=简易研磨机
+tile.blockBasicGrinder.name=基础研磨机
+tile.blockAdvancedGrinder.name=高级研磨机
+tile.blockPrecisionGrinder.name=精密研磨机
+tile.blockAntimatterGrinder.name=反物质研磨机
+
+tile.blockDenseClayDecomposer.name=密集粘土分解器
+tile.blockSimpleDecomposer.name=简易分解器
+tile.blockBasicDecomposer.name=基础分解器
+
+tile.blockSimpleMillingMachine.name=简易成型机
+tile.blockBasicMillingMachine.name=基础成型机
+
+tile.blockSimpleAssembler.name=简易装配台
+tile.blockBasicAssembler.name=基础装配台
+tile.blockPrecisionAssembler.name=精密装配台
+tile.blockAntimatterAssembler.name=反物质装配台
+tooltip.Assembler.line1=跟复杂的工序说再见.
+
+tile.blockSimpleInscriber.name=简易电子刻录仪
+tile.blockBasicInscriber.name=基础电子刻录仪
+
+tile.blockSimpleCentrifuge.name=简易离心机
+tile.blockBasicCentrifuge.name=基础离心机
+tile.blockAdvancedCentrifuge.name=高级离心机
+tile.blockPrecisionCentrifuge.name=精密离心机
+tooltip.Centrifuge.line1=第一个粘土工厂最重要的组成部分
+
+tile.blockBasicSmelter.name=基础冶炼厂
+tile.blockAdvancedSmelter.name=高级冶炼厂
+tile.blockPrecisionSmelter.name=精密冶炼厂
+tile.blockClaySteelSmelter.name=粘土钢冶炼厂
+tile.blockClayiumSmelter.name=工业用粘土冶炼厂
+tile.blockUltimateSmelter.name=终极冶炼厂
+tooltip.Smelter.line1=以CE作为能量的熔炉
+
+tile.blockBasicBuffer.name=基础缓冲器
+tile.blockAdvancedBuffer.name=高级缓冲器
+tile.blockPrecisionBuffer.name=精密缓冲器
+tile.blockClaySteelBuffer.name=粘土钢缓冲器
+tile.blockClayiumBuffer.name=工业用粘土缓冲器
+tile.blockUltimateBuffer.name=终极缓冲器
+tile.blockAntimatterBuffer.name=反物质缓冲器
+tile.blockPureAntimatterBuffer.name=高纯反物质缓冲器
+tile.blockOECBuffer.name=OEC缓冲器
+tile.blockOPABuffer.name=OPA缓冲器
+tooltip.Buffer.line1=转移物品。可以当做是物品管道
+
+tile.blockBasicMultitrackBuffer.name=基础多轨缓冲器
+tile.blockAdvancedMultitrackBuffer.name=高级多轨缓冲器
+tile.blockPrecisionMultitrackBuffer.name=精密多轨缓冲器
+tile.blockClaySteelMultitrackBuffer.name=粘土钢多轨缓冲器
+tile.blockClayiumMultitrackBuffer.name=工业用粘土多轨缓冲器
+tile.blockUltimateMultitrackBuffer.name=终极多轨缓冲器
+tile.blockAntimatterMultitrackBuffer.name=反物质多轨缓冲器
+tile.blockPureAntimatterMultitrackBuffer.name=高纯反物质多轨缓冲器
+tile.blockOECMultitrackBuffer.name=OEC多轨缓冲器
+tile.blockOPAMultitrackBuffer.name=OPA多轨缓冲器
+tooltip.MultitrackBuffer.line1=__细节__
+tooltip.MultitrackBuffer.line2=这些多轨缓冲器的缓冲槽以颜色分组
+tooltip.MultitrackBuffer.line3=两个多轨缓冲器之前传输的物品
+tooltip.MultitrackBuffer.line4=将会在不同的颜色组独立进行
+tooltip.MultitrackBuffer.line5=此外，每个颜色组会有一个过滤器槽
+
+tile.blockBasicChemicalReactor.name=基础化学反应堆
+tile.blockAdvancedChemicalReactor.name=高级化学反应堆
+tile.blockClayiumChemicalReactor.name=工业用粘土化学反应堆
+
+tile.blockBasicSaltExtractor.name=基础盐分提取机
+tile.blockAdvancedSaltExtractor.name=高级盐分提取机
+tile.blockPrecisionSaltExtractor.name=精密盐分提取机
+tile.blockClaySteelSaltExtractor.name=粘土钢盐分提取机
+tooltip.SaltExtractor.line1=从水中提取盐
+tooltip.SaltExtractor.line2=__细节__
+tooltip.SaltExtractor.line3=需要消耗CE和贴近水源
+
+tile.blockAutoClayCondenser.name=全自动粘土压缩机 Mk I
+tile.blockAutoClayCondenser.tooltip.line1=自动压缩粘土
+tile.blockAutoClayCondenserMK2.name=Automatic Clay Condenser Mk II
+tile.blockAutoClayCondenserMK2.tooltip.line1=自动压缩粘土
+tile.blockAutoClayCondenserMK2.tooltip.line2=比 Mk I的速度更块.
+tile.blockQuartzCrucible.name=石英坩埚
+tile.blockQuartzCrucible.tooltip.line1=净化不纯的硅
+tile.blockQuartzCrucible.tooltip.line2=__细节__
+tile.blockQuartzCrucible.tooltip.line3=1. 丢出不纯硅锭
+tile.blockQuartzCrucible.tooltip.line4=2. 等几分钟.
+tile.blockQuartzCrucible.tooltip.line5=3. 再丢出线.
+
+tile.blockSolarClayFabricatorMK1.name=太阳能粘土制造厂 Mk I
+tile.blockSolarClayFabricatorMK1.tooltip.line1=可以用来提升粘土价值
+tile.blockSolarClayFabricatorMK1.tooltip.line2=通过消耗太阳能
+tile.blockSolarClayFabricatorMK1.tooltip.line3=__细节__
+tile.blockSolarClayFabricatorMK1.tooltip.line4=可以承兑高级工业粘土
+tile.blockSolarClayFabricatorMK2.name=太阳能粘土制造厂 Mk II
+tile.blockSolarClayFabricatorMK2.tooltip.line1=可以用来提升粘土价值
+tile.blockSolarClayFabricatorMK2.tooltip.line2=通过消耗太阳能
+tile.blockSolarClayFabricatorMK2.tooltip.line3=__细节__
+tile.blockSolarClayFabricatorMK2.tooltip.line4=可以承兑压缩充能粘土
+tile.blockLithiumSolarClayFabricator.name=锂太阳能粘土制造厂
+tile.blockLithiumSolarClayFabricator.tooltip.line1=可以用来提升粘土价值
+tile.blockLithiumSolarClayFabricator.tooltip.line2=通过消耗太阳能
+tile.blockLithiumSolarClayFabricator.tooltip.line3=__细节__
+tile.blockLithiumSolarClayFabricator.tooltip.line4=可以承兑四重压缩充能粘土
+tile.blockLithiumSolarClayFabricator.tooltip.line5=你可以使用锂锭代替
+tile.blockLithiumSolarClayFabricator.tooltip.line6=一个三重压缩充能粘土块
+tile.blockClayFabricatorMK1.name=粘土制造厂 Mk I
+tile.blockClayFabricatorMK1.tooltip.line1=复制粘土.
+tile.blockClayFabricatorMK1.tooltip.line2=__细节__
+tile.blockClayFabricatorMK1.tooltip.line3=可以复制六重压缩粘土
+tile.blockClayFabricatorMK1.tooltip.line4=生产速度取决于
+tile.blockClayFabricatorMK1.tooltip.line5=粘土的tier 阶级
+tile.blockClayFabricatorMK2.name=粘土制造厂 Mk II
+tile.blockClayFabricatorMK2.tooltip.line1=复制粘土.
+tile.blockClayFabricatorMK2.tooltip.line2=__细节__
+tile.blockClayFabricatorMK2.tooltip.line3=跟Mk I一样适用于六重压缩粘土
+tile.blockClayFabricatorMK2.tooltip.line4=生产速度取决于
+tile.blockClayFabricatorMK2.tooltip.line5=粘土的tier 阶级
+tile.blockClayFabricatorMK3.name=粘土制造厂 Mk III
+tile.blockClayFabricatorMK3.tooltip.line1=瞬间复制粘土.
+
+tile.blockPrecisionAlloySmelter.name=合金冶炼厂
+
+tile.blockChemicalMetalSeparator.name=化学金属分离器
+tile.blockClayBlastFurnace.name=粘土高炉
+tile.blockClayBlastFurnace.tooltip.line1=__细节__
+tile.blockClayBlastFurnace.tooltip.line2=[多方块]
+tile.blockClayBlastFurnace.tooltip.line3=XXX XXX
+tile.blockClayBlastFurnace.tooltip.line4=XXX XXX
+tile.blockClayBlastFurnace.tooltip.line5=XFX XXX
+tile.blockClayBlastFurnace.tooltip.line6=F: 粘土高炉方块
+tile.blockClayBlastFurnace.tooltip.line7=X: 机械外壳或者接口
+tile.blockClayBlastFurnace.tooltip.line8=能够处理的配方阶级取决于外壳的阶级
+
+tile.blockAdvancedClayInterface.name=粘土接口
+tile.blockPrecisionClayInterface.name=精密接口
+tile.blockClaySteelClayInterface.name=粘土钢接口
+tile.blockClayiumClayInterface.name=工业用粘土接口
+tile.blockUltimateClayInterface.name=终极接口
+tile.blockAntimatterClayInterface.name=反物质借口
+tile.blockPureAntimatterClayInterface.name=高纯反物质接口
+tile.blockOECClayInterface.name=OEC接口
+tile.blockOPAClayInterface.name=OPA接口
+tooltip.Interface.line1=用于设置多方块的 I/O.
+tooltip.Interface.line2=__细节__
+tooltip.Interface.line3=需要同步部件传输物品
+
+tile.blockAdvancedRedstoneInterface.name=红石接口
+tile.blockPrecisionRedstoneInterface.name=精密红石接口
+tile.blockClaySteelRedstoneInterface.name=粘土钢红石接口
+tile.blockClayiumRedstoneInterface.name=工业用粘土红石接口
+tile.blockUltimateRedstoneInterface.name=终极红石接口
+tile.blockAntimatterRedstoneInterface.name=反物质红石接口
+tile.blockPureAntimatterRedstoneInterface.name=高纯反物质红石接口
+tile.blockOECRedstoneInterface.name=OEC红石接口
+tile.blockOPARedstoneInterface.name=OPA红石接口
+tooltip.RedstoneInterface.line1=作用于多方块红石控制的 I/O.
+tooltip.RedstoneInterface.line2=__细节__
+tooltip.RedstoneInterface.line3=同步装置可以使红石接口
+tooltip.RedstoneInterface.line4=应用于非多方块结构.
+
+tile.blockPrecisionElectrolysisReactor.name=电解反应堆
+tile.blockClaySteelElectrolysisReactor.name=粘土钢电解反应堆
+tile.blockClayiumElectrolysisReactor.name=工业用粘土电解反应堆
+tile.blockUltimateElectrolysisReactor.name=终极电解反应堆
+
+tile.blockClaySteelDistributor.name=项目分配器
+tile.blockClayiumDistributor.name=工业用粘土分配器
+tile.blockUltimateDistributor.name=终极分配器
+tooltip.Distributor.line1=分配通过分配器的物品
+
+tile.blockClaySteelLaserClayInterface.name=雷射接口
+tile.blockClayiumLaserClayInterface.name=工业用粘土雷射接口
+tile.blockUltimateLaserClayInterface.name=终极雷射接口
+tile.blockAntimatterLaserClayInterface.name=反物质雷射接口
+tile.blockPureAntimatterLaserClayInterface.name=高纯反物质雷射接口
+tile.blockOECLaserClayInterface.name=OEC雷射接口
+tile.blockOPALaserClayInterface.name=OPA雷射接口
+tooltip.LaserInterface.line1=作用于粘土反应堆
+tooltip.LaserInterface.line2=__细节__
+tooltip.LaserInterface.line3=同步装置可以使雷射接口
+tooltip.LaserInterface.line4=用于非多方块机器.
+
+tile.blockClayReactor.name=粘土反应堆
+tile.blockClayReactor.tooltip.line1=__细节__
+tile.blockClayReactor.tooltip.line2=[Multiblock]
+tile.blockClayReactor.tooltip.line3=XXX XXX XXX
+tile.blockClayReactor.tooltip.line4=XXX XXX XLX
+tile.blockClayReactor.tooltip.line5=XXX XRX XXX
+tile.blockClayReactor.tooltip.line6=R: 粘土反应堆方块
+tile.blockClayReactor.tooltip.line7=L: 雷射接口
+tile.blockClayReactor.tooltip.line8=X: 机械外壳或者接口
+tile.blockClayReactor.tooltip.line9=能够处理的配方阶级取决于外壳的阶级
+tile.blockClayReactor.tooltip.line10=工作时间取决于雷射的强度
+
+tile.blockClaySteelTransformer.name=粘土钢物质转换仪
+tile.blockClayiumTransformer.name=工业用粘土物质转换仪
+tile.blockUltimateTransformer.name=终极物质转换仪
+tile.blockAntimatterTransformer.name=反物质转换仪
+tile.blockPureAntimatterTransformer.name=高纯物质转换仪
+tile.blockOECTransformer.name=OEC转换仪
+tooltip.Transformer.line1=物质间的转换
+
+tile.blockUltimateCACondenser.name=CA聚合器
+tile.blockAntimatterCACondenser.name=反物质CA聚合器
+tile.blockPureAntimatterCACondenser.name=高纯反物质CA 聚合器
+tooltip.CACondenser.line1=聚合反物质的种子
+
+tile.blockUltimateCAInjector.name=CA注入室
+tile.blockAntimatterCAInjector.name=反物质CA注入室
+tile.blockPureAntimatterCAInjector.name=高纯反物质CA注入室
+tile.blockOECCAInjector.name=OEC CA 注入室
+tile.blockOPACAInjector.name=OPA CA 注入室
+tooltip.CAInjector.line1=将反物质注入到方块物品之中.
+
+tile.blockCACollector.name=CA 谐振收集器
+tile.blockCACollector.tooltip.line1=谐振与收集反物质
+tile.blockCACollector.tooltip.line2=需要配合谐振仓使用.
+
+ttile.blockResonator.antimatter.name=反物质谐振仓
+tile.blockResonator.pureantimatter.name=高纯反物质谐振仓
+tile.blockResonator.oec.name=OEC谐振仓
+tile.blockResonator.opa.name=OPA谐振仓
+tooltip.Resonator.line1=提升CA机器的效率
+tooltip.Resonator.line2=以机器为中心体积最大 5x5x5.
+tooltip.Resonator.resonance=谐振 : x%1$4.3g
+
+tile.blockOverclocker.antimatter.name=反物质超频升级
+tile.blockOverclocker.pureantimatter.name=高纯反物质超频升级
+tile.blockOverclocker.oec.name=OEC超频升级
+tile.blockOverclocker.opa.name=OPA超频升级
+tooltip.Overclocker.line1=提升机器的工作速度.
+tooltip.Overclocker.overclockFactor=超频系数 : x%1$4.3g
+
+tile.blockEnergyStorageUpgrade.antimatter.name=反物质能量储存升级
+tile.blockEnergyStorageUpgrade.pureantimatter.name=高纯反物质能量储存升级
+tile.blockEnergyStorageUpgrade.oec.name=OEC能量储存升级
+tile.blockEnergyStorageUpgrade.opa.name=OPA能量储存升级
+tile.blockEnergyStorageUpgrade.antimatter.tooltip.line1=充能粘土堆栈数提升1
+tile.blockEnergyStorageUpgrade.antimatter.tooltip.line2=只对邻近的机器有效
+tile.blockEnergyStorageUpgrade.pureantimatter.tooltip.line1=充能粘土堆栈数提升3
+tile.blockEnergyStorageUpgrade.pureantimatter.tooltip.line2=只对邻近的机器有效
+tile.blockEnergyStorageUpgrade.oec.tooltip.line1=充能粘土堆栈数提升7
+tile.blockEnergyStorageUpgrade.oec.tooltip.line2=只对邻近的机器有效
+tile.blockEnergyStorageUpgrade.opa.tooltip.line1=允许邻近的机器
+tile.blockEnergyStorageUpgrade.opa.tooltip.line2=堆栈全部的充能粘土
+
+tile.blockAntimatterCAReactorCore.name=CA反应堆核心 Mk I
+tile.blockPureAntimatterCAReactorCore.name=CA反应堆核心 Mk II
+tile.blockOECCAReactorCore.name=CA反应堆核心 Mk III
+tile.blockOPACAReactorCore.name=CA反应堆核心 Mk IV
+tooltip.CAReactor.line1=将反物质转化为高纯反物质
+tooltip.CAReactor.line2=__细节__
+tooltip.CAReactor.line3=反应堆的等级(组件等级的平均值)
+tooltip.CAReactor.line4=决定了产出反物质的等级
+tooltip.CAReactor.line5=[多方块结构]
+tooltip.CAReactor.line6=将CA反应堆线圈按环形放置
+tooltip.CAReactor.line7=用反应堆外壳覆盖 (或者接口),
+tooltip.CAReactor.line8=并将一个反应堆外壳换成反应堆核心
+tooltip.CAReactor.line9=- 反应堆外壳数量 >= 50.
+tooltip.CAReactor.line10=- 反应堆线圈的阶级 (和接口) >= 反应堆核心
+gui.CAReactor.invalid=无效
+gui.CAReactor.constructed=构造
+gui.CAReactor.rankSize=等级 %1$2.2g  尺寸 %2$2d
+gui.CAReactor.efficiency=效率 %g
+message.CAReactor.invalidCoil=线圈 [%1$d,%2$d,%3$d]是无效的.
+message.CAReactor.insufficientTierCoil=线圈 [%1$d,%2$d,%3$d]的阶级不足
+message.CAReactor.invalidHull=外壳 [%1$d,%2$d,%3$d] 是无效的.
+message.CAReactor.tooHighTierHull=外壳 [%1$d,%2$d,%3$d]的等级太高
+message.CAReactor.insufficientTierInterface=接口 [%1$d,%2$d,%3$d]等级不足
+message.CAReactor.invalidReactorSize=反应堆尺寸(%1$d)小于最小尺寸(%2$d).
+
+tile.blockCAReactorCoil.antimatter.name=CA反应堆线圈 Mk I
+tile.blockCAReactorCoil.pureantimatter.name=CA反应堆线圈 Mk II
+tile.blockCAReactorCoil.oec.name=CA反应堆线圈 Mk III
+tile.blockCAReactorCoil.opa.name=CA反应堆线圈 Mk IV
+tooltip.CAReactorCoil.line1=__细节__
+tooltip.CAReactorCoil.line2=- 其六个表面必须被其他方块覆盖
+tooltip.CAReactorCoil.line3=- 相邻的线圈熟练必须是2
+tooltip.CAReactorCoil.line4=NG :
+tooltip.CAReactorCoil.line5=CCCCC
+tooltip.CAReactorCoil.line6=C___C <- 有四个相邻的线圈!
+tooltip.CAReactorCoil.line7=CCCCC
+tooltip.CAReactorCoil.line8=OK :
+tooltip.CAReactorCoil.line9=_CCC_
+tooltip.CAReactorCoil.line10=C___C
+tooltip.CAReactorCoil.line11=_CCC_
+
+tile.blockCAReactorHull.0.name=CA反应堆外壳 Rank 1
+tile.blockCAReactorHull.1.name=CA反应堆外壳 Rank 2
+tile.blockCAReactorHull.2.name=CA反应堆外壳 Rank 3
+tile.blockCAReactorHull.3.name=CA反应堆外壳 Rank 4
+tile.blockCAReactorHull.4.name=CA反应堆外壳 Rank 5
+tile.blockCAReactorHull.5.name=CA反应堆外壳 Rank 6
+tile.blockCAReactorHull.6.name=CA反应堆外壳 Rank 7
+tile.blockCAReactorHull.7.name=CA反应堆外壳 Rank 8
+tile.blockCAReactorHull.8.name=CA反应堆外壳 Rank 9
+tile.blockCAReactorHull.9.name=CA反应堆外壳 Rank 10
+tile.blockCAReactorHull.0.tooltip.line1=需要Mk I或更高等级的核心和线圈。
+tile.blockCAReactorHull.1.tooltip.line1=需要Mk I或更高等级的核心和线圈。
+tile.blockCAReactorHull.2.tooltip.line1=需要Mk II或更高等级的核心和线圈。
+tile.blockCAReactorHull.3.tooltip.line1=需要Mk II或更高等级的核心和线圈。
+tile.blockCAReactorHull.4.tooltip.line1=需要Mk II或更高等级的核心和线圈。
+tile.blockCAReactorHull.5.tooltip.line1=需要Mk II或更高等级的核心和线圈。
+tile.blockCAReactorHull.6.tooltip.line1=需要Mk III或更高等级的核心和线圈。
+tile.blockCAReactorHull.7.tooltip.line1=需要Mk III或更高等级的核心和线圈。
+tile.blockCAReactorHull.8.tooltip.line1=需要Mk III或更高等级的核心和线圈。
+tile.blockCAReactorHull.9.tooltip.line1=需要Mk III或更高等级的核心和线圈。
+
+tile.blockEnergeticClayDecomposer.name=充能粘土分解器
+
+tile.blockClayWaterWheel.name=粘土水车
+tile.blockDenseClayWaterWheel.name=密集粘土水车
+tooltip.WaterWheel.line1=可以为相邻的tier2,3的机器供能
+tooltip.WaterWheel.line2=__细节__
+tooltip.WaterWheel.line3=邻近流动水的体积(最大3*3*3)
+tooltip.WaterWheel.line4=决定了能量的强度
+gui.WaterWheel.progress=Progress: %1$d
+gui.WaterWheel.durability=Durability: %1$d
+gui.WaterWheel.surroundingWater=Water: %1$d
+
+tile.blockClaySteelClayEnergyLaser.name=蓝色粘土雷射
+tile.blockClayiumClayEnergyLaser.name=绿色粘土雷射
+tile.blockUltimateClayEnergyLaser.name=红色粘土雷射
+tile.blockAntimatterClayEnergyLaser.name=白色粘土雷射
+tile.blockAntimatterClayEnergyLaser.tooltip.line1=等于 3x蓝 + 3x绿 + 3x红.
+tooltip.ClayEnergyLaser.line1=__DETAIL__
+tooltip.ClayEnergyLaser.line2=雷射用于让粘土反应堆运行
+tooltip.ClayEnergyLaser.line3=或者让区域机器加速.
+tooltip.ClayEnergyLaser.line4=雷射似乎对矿石和树苗有影响.
+tooltip.ClayEnergyLaser.line5=雷射可以通过红石信号控制.
+tooltip.ClayEnergyLaser.energyConsumption=能量 %1$s CE/t
+
+tile.blockLaserReflector.name=雷射反射镜
+tile.blockLaserReflector.tooltip.line1=改变雷射的方向.
+
+tile.blockClayTreeSapling.name=粘土树树苗
+tile.blockClayTreeLog.name=粘土树原木
+tile.blockClayTreeLeaf.name=粘土树叶
+
+tile.blockClayChunkLoader.name=3x3 区块加载
+tile.blockStorageContainer.name=储物集装箱
+tile.blockVacuumContainer.name=真空集装箱
+tile.blockVacuumContainer.tooltip.line1=删除任何进入它的物品.
+tile.blockAutoTrader.name=自动贸易站
+
+tile.blockClayMarker.name=粘土地标
+tile.blockClayMarker.tooltip.line1=为区域机器规划区域.
+tile.blockClayOpenPitMarker.name=粘土露天采矿地标
+tile.blockClayOpenPitMarker.tooltip.line1=用于区域机器.
+
+tile.blockMiner.name=方块粉碎机
+tile.blockAreaCollector.name=区域项目采掘机
+tile.blockAreaMiner.name=区域采掘机
+tile.blockAdvancedAreaMiner.name=高级区域采掘机
+tile.blockAreaReplacer.name=区域复位器
+gui.AreaMiner.harvest=收割
+gui.AreaMiner.fortune=时运
+gui.AreaMiner.silktouch=精准采集
+
+tile.blockAreaActivator.name=触发器
+tile.blockActivator.tooltip.line1=自动单机右键.
+tile.blockAreaActivator.name=区域触发器
+tile.blockAreaActivator.tooltip.line1=自动单机右键.
+
+tile.blockAdvancedAutoCrafter.name=自动合成台
+tile.blockPrecisionAutoCrafter.name=精密自动合成台
+tile.blockClaySteelAutoCrafter.name=粘土钢自动合成台
+tile.blockClayiumAutoCrafter.name=工业用粘土自动合成台
+tile.blockUltimateAutoCrafter.name=终极自动合成台
+
+tile.blockPANCable.name=PAN 线缆
+tile.blockPANCore.name=PAN 核心
+tile.blockAntimatterPANAdapter.name=PAN转接器 Mk I
+tile.blockPureAntimatterPANAdapter.name=PAN转接器 Mk II
+tile.blockOECPANAdapter.name=PAN转接器 Mk III
+tile.blockOPAPANAdapter.name=PAN转接器 Mk IV
+
+tile.blockBasicPANDuplicator.name=PAN复制机 Rank 1
+tile.blockAdvancedPANDuplicator.name=PAN复制机 Rank 2
+tile.blockPrecisionPANDuplicator.name=PAN复制机 Rank 3
+tile.blockClaySteelPANDuplicator.name=PAN复制机 Rank 4
+tile.blockClayiumPANDuplicator.name=PAN复制机 Rank 5
+tile.blockUltimatePANDuplicator.name=PAN复制机 Rank 6
+tile.blockAntimatterPANDuplicator.name=PAN复制机 Rank 7
+tile.blockPureAntimatterPANDuplicator.name=PAN复制机 Rank 8
+tile.blockOECPANDuplicator.name=PAN复制机 Rank 9
+tile.blockOPAPANDuplicator.name=PAN复制机 Rank 10
+
+tile.blockBasicFluidTranslator.name=基础流体缓冲器
+tile.blockAdvancedFluidTranslator.name=高级流体缓冲器
+tile.blockPrecisionFluidTranslator.name=精密流体缓冲器
+tile.blockClaySteelFluidTranslator.name=粘土钢流体缓冲器
+tile.blockClayiumFluidTranslator.name=工业用粘土流体缓冲器
+tile.blockUltimateFluidTranslator.name=终极流体缓冲器
+tile.blockAntimatterFluidTranslator.name=反物质流体缓冲器
+tile.blockPureAntimatterFluidTranslator.name=高纯反物质流体缓冲器
+tile.blockOECFluidTranslator.name=OEC 流体缓冲器
+tile.blockOPAFluidTranslator.name=OPA 流体缓冲器
+tooltip.FluidTranslator.line1=流体间的运输和
+tooltip.FluidTranslator.line2=液体胶囊间运输.
+
+tile.blockAdvancedFluidTransferMachine.name=流体传输器
+tile.blockAdvancedFluidTransferMachine.tooltip.line1=填充或者清空液体容器.
+
+tile.blockCreativeCESource.name=创造型CE供应器
+
+tile.blockBasicRFGenerator.name=CE-RF转换器
+tile.blockAdvancedRFGenerator.name=高级CE-RF转换器
+tile.blockPrecisionRFGenerator.name=精密CE-RF转换器
+tile.blockClaySteelRFGenerator.name=粘土钢CE-RF转换器
+tile.blockClayiumRFGenerator.name=工业用CE-RF转换器
+tile.blockUltimateRFGenerator.name=终极CE-RF转换器
+tile.blockAntimatterRFGenerator.name=反物质CE-RF转换器
+tile.blockPureAntimatterRFGenerator.name=高纯反物质CE-RF转换器
+tile.blockOECRFGenerator.name=OEC CE-RF转换器
+tile.blockOPARFGenerator.name=OPA CE-RF转换器
+gui.RFGenerator.storage=%1$sRF/%2$sRF
+gui.RFGenerator.convertRate=%1$sCE/t -> %2$sRF/t
+gui.RFGenerator.output=输出: %1$sRF/t
+gui.RFGenerator.overclock=超频: x%1$s
+gui.RFGenerator.overclockExponent=OC: %1$s ^ %2$s = %3$s
+tooltip.RFGenerator.line1=将CE转换成RF.
+tooltip.RFGenerator.line2=__细节__
+tooltip.RFGenerator.line3=当施加红石信号时，将停止能量转换.
+tooltip.RFGenerator.line4=超频器增加输出的RF / t.
+tooltip.RFGenerator.line5=编辑clayium.cfg以启用转换器配方.
+tooltip.RFGenerator.convertRate=%1$sCE/t -> %2$sRF/t
+tooltip.RFGenerator.output=Output: %1$sRF/t
+
+tile.blockMetalChest.Silicon.name=硅箱子
+tile.blockMetalChest.Aluminium.name=铝箱子
+tile.blockMetalChest.ClaySteel.name=粘土钢箱子
+tile.blockMetalChest.Clayium.name=工业用粘土箱子
+tile.blockMetalChest.UltimateAlloy.name=终极合金箱子
+
+tile.blockMetalChest.Magnesium.name=镁箱子
+tile.blockMetalChest.Sodium.name=钠箱子
+tile.blockMetalChest.Lithium.name=锂箱子
+tile.blockMetalChest.Zirconium.name=锆箱子
+tile.blockMetalChest.Zinc.name=锌箱子
+
+ile.blockMetalChest.Manganese.name=锰箱子
+tile.blockMetalChest.Calcium.name=钙箱子
+tile.blockMetalChest.Potassium.name=钾箱子
+tile.blockMetalChest.Nickel.name=镍箱子
+tile.blockMetalChest.Beryllium.name=铍箱子
+tile.blockMetalChest.Lead.name=铅箱子
+tile.blockMetalChest.Hafnium.name=铪箱子
+tile.blockMetalChest.Chrome.name=铬箱子
+tile.blockMetalChest.Titanium.name=钛箱子
+tile.blockMetalChest.Strontium.name=锶箱子
+tile.blockMetalChest.Barium.name=钡箱子
+
+tile.blockMetalChest.AZ91D.name=AZ91D合金箱子
+tile.blockMetalChest.ZK60A.name=ZK60A合金箱子
+
+tile.blockMetalChest.Rubidium.name=铷箱子
+tile.blockMetalChest.Caesium.name=铯箱子
+tile.blockMetalChest.Francium.name=钫箱子
+tile.blockMetalChest.Radium.name=镭箱子
+tile.blockMetalChest.Actinium.name=锕箱子
+tile.blockMetalChest.Thorium.name=钍箱子
+tile.blockMetalChest.Protactinium.name=镤箱子
+tile.blockMetalChest.Uranium.name=铀箱子
+tile.blockMetalChest.Neptunium.name=镎箱子
+tile.blockMetalChest.Plutonium.name=钚箱子
+tile.blockMetalChest.Americium.name=镅箱子
+tile.blockMetalChest.Curium.name=锔箱子
+
+tile.blockMetalChest.Lanthanum.name=镧箱子
+tile.blockMetalChest.Cerium.name=铈箱子
+tile.blockMetalChest.Praseodymium.name=镨箱子
+tile.blockMetalChest.Neodymium.name=钕箱子
+tile.blockMetalChest.Promethium.name=钷箱子
+tile.blockMetalChest.Samarium.name=钐箱子
+tile.blockMetalChest.Europium.name=铕箱子
+
+tile.blockMetalChest.Vanadium.name=钒箱子
+
+tile.blockMetalChest.Cobalt.name=钴箱子
+tile.blockMetalChest.Palladium.name=钯箱子
+
+tile.blockMetalChest.Platinum.name=铂箱子
+tile.blockMetalChest.Iridium.name=铱箱子
+tile.blockMetalChest.Osmium.name=锇箱子
+tile.blockMetalChest.Rhenium.name=铼箱子
+
+tile.blockMetalChest.Tantalum.name=钽箱子
+tile.blockMetalChest.Tungsten.name=钨箱子
+tile.blockMetalChest.Molybdenum.name=钼箱子
+
+tile.blockMetalChest.Antimony.name=锑箱子
+tile.blockMetalChest.Bismuth.name=铋箱子
+
+tile.blockMetalChest.Brass.name=黄铜箱子
+tile.blockMetalChest.Electrum.name=琥珀金箱子
+tile.blockMetalChest.Invar.name=因瓦合金箱子
+
+tooltip.MetalChest.capacity1=容量: %1$d x %2$d = %3$d 槽
+tooltip.MetalChest.capacity2=容量: %1$d x %2$d x %3$d = %4$d 槽
+
+tile.blockMetal.Magnesium.name=镁块
+tile.blockMetal.Sodium.name=钠块
+tile.blockMetal.Lithium.name=锂块
+tile.blockMetal.Zirconium.name=锆块
+tile.blockMetal.Zinc.name=锌块
+
+tile.blockMetal.Manganese.name=锰块
+tile.blockMetal.Calcium.name=钙块
+tile.blockMetal.Potassium.name=钾块
+tile.blockMetal.Nickel.name=镍块
+tile.blockMetal.Beryllium.name=铍块
+tile.blockMetal.Lead.name=铅块
+tile.blockMetal.Hafnium.name=铪块
+tile.blockMetal.Chrome.name=铬块
+tile.blockMetal.Titanium.name=钛块
+tile.blockMetal.Strontium.name=锶块
+tile.blockMetal.Barium.name=钡块
+
+tile.blockMetal.AZ91D.name=AZ91D合金块
+tile.blockMetal.ZK60A.name=ZK60A合金块
+
+tile.blockMetal.Rubidium.name=铷块
+tile.blockMetal.Caesium.name=铯块
+tile.blockMetal.Francium.name=钫块
+tile.blockMetal.Radium.name=镭块
+tile.blockMetal.Actinium.name=锕块
+tile.blockMetal.Thorium.name=钍块
+tile.blockMetal.Protactinium.name=镤块
+tile.blockMetal.Uranium.name=铀块
+tile.blockMetal.Neptunium.name=镎块
+tile.blockMetal.Plutonium.name=钚块
+tile.blockMetal.Americium.name=镅块
+tile.blockMetal.Curium.name=锔块
+
+tile.blockMetal.Lanthanum.name=镧块
+tile.blockMetal.Cerium.name=铈块
+tile.blockMetal.Praseodymium.name=镨块
+tile.blockMetal.Neodymium.name=钕块
+tile.blockMetal.Promethium.name=钷块
+tile.blockMetal.Samarium.name=钐块
+tile.blockMetal.Europium.name=铕块
+
+tile.blockMetal.Vanadium.name=钒块
+
+tile.blockMetal.Cobalt.name=钴块
+tile.blockMetal.Palladium.name=钯块
+
+tile.blockMetal.Copper.name=铜块
+tile.blockMetal.Silver.name=银块
+tile.blockMetal.Platinum.name=铂块
+tile.blockMetal.Iridium.name=铱块
+tile.blockMetal.Osmium.name=锇块
+tile.blockMetal.Rhenium.name=铼块
+
+tile.blockMetal.Tantalum.name=钽块
+tile.blockMetal.Tungsten.name=钨块
+tile.blockMetal.Molybdenum.name=钼块
+
+tile.blockMetal.Tin.name=锡块
+tile.blockMetal.Antimony.name=锑块
+tile.blockMetal.Bismuth.name=铋块
+
+tile.blockMetal.Steel.name=钢块
+tile.blockMetal.Bronze.name=青铜块
+tile.blockMetal.Brass.name=黄铜块
+tile.blockMetal.Electrum.name=琥珀金块
+tile.blockMetal.Invar.name=因瓦合金块
+
+tile.blockImpureSilicon.name=不纯硅块
+tile.blockSilicone.name=硅胶块
+tile.blockSilicon.name=硅块
+tile.blockAluminium.name=铝块
+tile.blockClaySteel.name=粘土钢块
+tile.blockClayium.name=工业用粘土块
+tile.blockUltimateAlloy.name=终极合金块
+tile.blockAntimatter.name=反物质块
+tile.blockPureAntimatter.name=高纯反物质块
+tile.blockOctupleEnergeticClay.name=OEC 方块
+tile.blockOctuplePureAntimatter.name=OPA 方块
+
+tile.blockSilicone.white.name=白色硅胶块
+tile.blockSilicone.orange.name=橙色硅胶块
+tile.blockSilicone.magenta.name=品红色硅胶块
+tile.blockSilicone.light_blue.name=浅蓝色硅胶块
+tile.blockSilicone.yellow.name=黄色硅胶块
+tile.blockSilicone.lime.name=黄绿色硅胶块
+tile.blockSilicone.pink.name=粉色硅胶块
+tile.blockSilicone.gray.name=灰色硅胶块
+tile.blockSilicone.silver.name=浅灰色硅胶块
+tile.blockSilicone.cyan.name=青涩硅胶块
+tile.blockSilicone.purple.name=紫色硅胶块
+tile.blockSilicone.blue.name=蓝色硅胶块
+tile.blockSilicone.brown.name=棕色硅胶块
+tile.blockSilicone.green.name=绿色硅胶块
+tile.blockSilicone.red.name=红色硅胶块
+tile.blockSilicone.black.name=黑色硅胶块
+
+item.itemRawClayCraftingTools.RollingPin.name=生粘土擀面杖
+item.itemRawClayCraftingTools.RollingPin.tooltip.line1=删除应用于机器的过滤器.
+item.itemRawClayCraftingTools.Slicer.name=生粘土切片器
+item.itemRawClayCraftingTools.Slicer.tooltip.line1=删除应用于机器的过滤器.
+item.itemRawClayCraftingTools.Spatula.name=生粘土刮刀
+item.itemRawClayCraftingTools.Spatula.tooltip.line1=删除应用于机器的过滤器.
+item.itemClayRollingPin.name=粘土擀面杖
+item.itemClayRollingPin.tooltip.line1=设置机器的输入
+item.itemClaySlicer.name=粘土切片器
+item.itemClaySlicer.tooltip.line1=设置机器的输出
+item.itemClaySpatula.name=粘土刮刀
+item.itemClaySpatula.tooltip.line1=将机器外观变成管道.
+item.itemClayWrench.name=粘土扳手
+item.itemClayWrench.tooltip.line1=旋转机器.
+item.itemClayPipingTools.IO.name=粘土IO配置器
+item.itemClayPipingTools.IO.tooltip.line1=输入/输出（潜行）
+item.itemClayPipingTools.Piping.name=粘土管道配置器
+item.itemClayPipingTools.Piping.tooltip.line1=管道/旋转（潜行）
+item.itemClayPipingTools.Memory.name=储存卡
+item.itemClayPipingTools.Memory.tooltip.line1=存储机器IO设置.
+item.itemClayPipingTools.Memory.tooltip.line2=右击：读取储存的配置
+item.itemClayPipingTools.Memory.tooltip.line3=Shift + 右击 : 保存配置于储存卡
+
+item.itemDirectionMemory.name=方向储存卡
+item.itemDirectionMemory.tooltip.line1=用于配置区域触发器
+item.itemDirectionMemory.tooltip.line2=在作用于项目时的目标方向.
+
+item.itemCompressedClayShard.1.name=压缩粘土碎片
+item.itemCompressedClayShard.2.name=工业粘土碎片
+item.itemCompressedClayShard.3.name=高级工业粘土碎片
+
+item.itemClayShovel.name=粘土铲
+item.itemClayShovel.tooltip.line1=可以挖粘土矿石并增加掉落
+item.itemClayPickaxe.name=粘土镐
+item.itemClayPickaxe.tooltip.line1=加快收获粘土矿石的速度并增加掉落.
+
+item.itemFilterDuplicator.copy.name=过滤项复制
+item.itemFilterWhitelist.name=白名单过滤项
+item.itemFilterWhitelist.copy.name=White List Item Filter (Copy)
+item.itemFilterBlacklist.name=黑名单过滤项
+item.itemFilterBlacklist.copy.name=Black List Item Filter (Copy)
+item.itemFilterFuzzy.name=模糊过滤项
+item.itemFilterFuzzy.copy.name=Fuzzy Item Filter (Copy)
+item.itemFilterOreDict.name=矿辞过滤项
+item.itemFilterOreDict.copy.name=Ore Dictionary Item Filter (Copy)
+item.itemFilterItemName.name=显示名称过滤项
+item.itemFilterItemName.copy.name=Display Name Item Filter (Copy)
+item.itemFilterUnlocalizedName.name=未本地化名称过滤项
+item.itemFilterUnlocalizedName.copy.name=Unlocalized Name Item Filter (Copy)
+item.itemFilterUniqueId.name=唯一ID过滤项
+item.itemFilterUniqueId.copy.name=Unique ID Item Filter (Copy)
+item.itemFilterModId.name=模组ID过滤项
+item.itemFilterModId.copy.name=MOD ID Item Filter (Copy)
+item.itemFilterMetadata.name=元数据过滤项
+item.itemFilterMetadata.copy.name=Metadata Item Filter (Copy)
+item.itemFilterDuplicator.tooltip.line1=在机器与机器之间复制过滤项
+item.itemFilterDuplicator.tooltip.line2=过滤并查看内容.
+item.itemFilterDuplicator.tooltip.line3=__细节__
+item.itemFilterDuplicator.tooltip.line4=如果要将复制的过滤器附加到机器
+item.itemFilterDuplicator.tooltip.line5=请按Shift + r单击.
+
+item.itemClaySteelPickaxe.name=粘土钢镐
+item.itemClaySteelShovel.name=粘土钢铲
+item.itemClaySteelPickaxe.tooltip.line1=__细节__
+item.itemClaySteelPickaxe.tooltip.line2=你可以通过右击更改挖掘模式
+item.itemClaySteelPickaxe.tooltip.line3=Mode 1 : 3x3 区域模式
+item.itemClaySteelPickaxe.tooltip.line4=Mode 2 : 自定义区域模式(5x5)
+item.itemClaySteelPickaxe.tooltip.line5=通过右击放置粘土块
+item.itemClaySteelPickaxe.tooltip.line6=它们用来定义你需要的形状
+item.itemClaySteelShovel.tooltip.line1=__细节__
+item.itemClaySteelShovel.tooltip.line2=你可以通过右击更改挖掘模式
+item.itemClaySteelShovel.tooltip.line3=Mode 1 : 3x3 区域模式
+item.itemClaySteelShovel.tooltip.line4=Mode 2 : 自定义区域模式(5x5)
+item.itemClaySteelShovel.tooltip.line5=通过右击放置粘土块
+item.itemClaySteelShovel.tooltip.line6=它们用来定义你需要的形状
+
+item.itemClayShooter0.name=基础粘土枪
+item.itemClayShooter1.name=高级粘土枪
+item.itemClayShooter2.name=粘土狙击枪
+item.itemClayShooter3.name=加强粘土狙击枪
+item.itemInstantTeleporter.name=传送枪
+item.itemInstantTeleporter.tooltip.line1=传送到子弹接触的点
+
+item.itemSynchronizer.name=同步装置
+item.itemSynchronizer.tooltip.line1=使接口与机器或者缓冲器同步
+item.itemSynchronizer.tooltip.line2=__细节__
+item.itemSynchronizer.tooltip.line3=它使你能够控制机器
+item.itemSynchronizer.tooltip.line4=与红石接口的红石信号
+item.itemSynchronizer.tooltip.line5=或者通过接口传输物品
+item.itemSynchronizer.tooltip.line6=1. 用同步装置右击接口
+item.itemSynchronizer.tooltip.line7=2. 右击记录机器坐标
+item.itemSynchronizer.tooltip.line8=3. 再用同步装置右击接口
+
+item.itemCapsule.name=粘土液体胶囊
+item.itemCapsule0125.name=粘土液体胶囊 (125mB)
+item.itemCapsule0025.name=粘土液体胶囊 (25mB)
+item.itemCapsule0005.name=粘土液体胶囊 (5mB)
+item.itemCapsule0001.name=粘土液体胶囊 (1mB)
+
+item.itemGadgetHolder.name=粘土配件包
+item.itemGadgetHolder.tooltip.line1=粘土配件当他们
+item.itemGadgetHolder.tooltip.line2=放在里面时产生效果.
+item.itemGadget.Blank.name=粘土配件模板
+item.itemGadget.AntimatterOverclock.name=粘土配件[超频 I]
+item.itemGadget.AntimatterOverclock.tooltip.line1=缩短你挖掘时间
+item.itemGadget.PureAntimatterOverclock.name=粘土配件[超频 II]
+item.itemGadget.PureAntimatterOverclock.tooltip.line1=缩短你放置或者挖掘的时间
+item.itemGadget.OECOverclock.name=粘土配件[超频 III]
+item.itemGadget.OECOverclock.tooltip.line1=缩短你放置或者挖掘的时间
+item.itemGadget.OPAOverclock.name=粘土配件[超频 IV]
+item.itemGadget.OPAOverclock.tooltip.line1=缩短你放置或者挖掘的时间
+item.itemGadget.Flight0.name=粘土配件[飞行]
+item.itemGadget.Flight1.name=粘土配件[自由飞行]
+item.itemGadget.Flight2.name=粘土配件[超音速飞行]
+item.itemGadget.Health0.name=粘土配件[生命提升I]
+item.itemGadget.Health1.name=粘土配件[生命提升II]
+item.itemGadget.Health2.name=粘土配件[生命提升III]
+item.itemGadget.AutoEat0.name=粘土配件[节约的自动进食]
+item.itemGadget.AutoEat1.name=粘土配件[自动进食]
+item.itemGadget.RepeatedlyAttack.name=粘土配件[连续打击]
+item.itemGadget.LongArm0.name=粘土配件[Long Arm]
+item.itemGadget.LongArm1.name=粘土配件[Longer Arm]
+item.itemGadget.LongArm2.name=粘土配件[Longest Arm]
+
+item.item.ClayCircuit.name=粘土电路
+item.item.ClayCircuitBoard.name=粘土电路板
+item.item.SimpleCircuit.name=简易电路
+item.item.BasicCircuit.name=基础电路
+item.item.AdvancedCircuit.name=高级电路
+item.item.PrecisionCircuit.name=精密电路
+item.item.IntegratedCircuit.name=集成电路
+item.item.ClayCore.name=粘土核心
+item.item.ClayCore.tooltip.line1=扩展储存容器的容量
+item.item.ClayCore.tooltip.line2=与DSU相似.
+item.item.ClayBrain.name=粘土脑
+item.item.ClaySpirit.name=精神粘土
+item.item.ClaySoul.name=灵魂粘土
+item.item.ClayAnima.name=阿尼玛斯粘土
+item.item.ClayPsyche.name=普赛克粘土
+item.item.SynchronousParts.name=同步部件
+item.item.SynchronousParts.tooltip.line1=将其插入接口中
+item.item.SynchronousParts.tooltip.line2=以启用同步.
+item.item.TeleportationParts.name=传送部件
+item.item.Manipulator1.name=调制器 Mk I
+item.item.Manipulator2.name=调制器 Mk II
+item.item.Manipulator3.name=调制器 Mk III
+
+item.item.CEEBoard.name=CEE 板
+item.item.CEECircuit.name=CEE 电路
+item.item.CEE.name=粘土主控单元
+item.item.LaserParts.name=雷射部件
+item.item.AntimatterSeed.name=反物质种子
+
+item.itemClayParts.Plate.name=粘土板
+item.itemClayParts.Stick.name=粘土棍
+item.itemClayParts.ShortStick.name=短粘土棍
+item.itemClayParts.Ring.name=粘土环
+item.itemClayParts.SmallRing.name=小粘土环
+item.itemClayParts.Gear.name=粘土齿轮
+item.itemClayParts.Blade.name=粘土刀片
+item.itemClayParts.Needle.name=粘土雕刻针
+item.itemClayParts.Disc.name=粘土盘
+item.itemClayParts.SmallDisc.name=小粘土盘
+item.itemClayParts.Cylinder.name=粘土圆筒
+item.itemClayParts.Pipe.name=粘土管
+item.itemClayParts.LargeBall.name=大粘土球
+item.itemClayParts.LargePlate.name=粘土大板
+item.itemClayParts.GrindingHead.name=粘土磨头
+item.itemClayParts.Bearing.name=粘土轴承
+item.itemClayParts.Spindle.name=粘土轴心
+item.itemClayParts.CuttingHead.name=粘土刀头
+item.itemClayParts.WaterWheel.name=粘土轮盘
+
+item.itemDenseClayParts.Plate.name=密集粘土板
+item.itemDenseClayParts.Stick.name=密集粘土棍
+item.itemDenseClayParts.ShortStick.name=短密集粘土棍
+item.itemDenseClayParts.Ring.name=密集粘土环
+item.itemDenseClayParts.SmallRing.name=小密集粘土环
+item.itemDenseClayParts.Gear.name=密集粘土齿轮
+item.itemDenseClayParts.Blade.name=密集粘土刀片
+item.itemDenseClayParts.Needle.name=密集粘土雕刻针
+item.itemDenseClayParts.Disc.name=密集粘土盘
+item.itemDenseClayParts.SmallDisc.name=小密集粘土盘
+item.itemDenseClayParts.Cylinder.name=密集粘土圆筒
+item.itemDenseClayParts.Pipe.name=密集粘土管
+item.itemDenseClayParts.LargePlate.name=密集粘土大板
+item.itemDenseClayParts.GrindingHead.name=密集粘土磨头
+item.itemDenseClayParts.Bearing.name=密集粘土轴承
+item.itemDenseClayParts.Spindle.name=密集粘土轴心
+item.itemDenseClayParts.Spindle.tooltip.line1=时间的顾客
+item.itemDenseClayParts.CuttingHead.name=密集粘土刀头
+item.itemDenseClayParts.WaterWheel.name=密集粘土轮盘
+
+item.itemPlates.IndustrialClay.name=工业粘土板
+item.itemLargePlates.IndustrialClay.name=工业粘土大板
+
+item.itemPlates.AdvancedIndustrialClay.name=高级工业粘土板
+item.itemLargePlates.AdvancedIndustrialClay.name=高级工业粘土大板
+
+item.itemClayParts.Dust.name=粘土粉
+item.itemDenseClayParts.Dust.name=密集粘土粉
+item.itemDusts.IndustrialClay.name=工业粘土粉
+item.itemDusts.AdvancedIndustrialClay.name=高级工业粘土粉
+item.itemDusts.EnergizedClay.name=充能粘土粉
+item.itemDusts.ExcitedClay.name=活性粘土粉
+
+item.itemDusts.Salt.name=盐
+item.itemDusts.Salt.tooltip.line1=由盐分提取机生产.
+item.itemDusts.CalcareousClay.name=钙质粘土粉
+item.itemDusts.IndustrialClay.name=工业粘土粉
+item.itemDusts.CalciumChloride.name=氯化钙粉
+item.itemDusts.SodiumCarbonate.name=碳酸钠粉
+item.itemDusts.Quartz.name=石英粉
+
+item.itemPlates.ImpureSilicon.name=不纯硅板
+item.itemLargePlates.ImpureSilicon.name=不纯硅大板
+item.itemDusts.ImpureSilicon.name=不纯硅粉
+item.itemIngots.ImpureSilicon.name=不纯硅锭
+
+item.itemPlates.Silicone.name=硅胶板
+item.itemLargePlates.Silicone.name=硅胶大板
+item.itemDusts.Silicone.name=硅胶粉
+item.itemIngots.Silicone.name=硅胶锭
+
+item.itemPlates.Silicon.name=硅板
+item.itemLargePlates.Silicon.name=硅大板
+item.itemDusts.Silicon.name=硅粉
+item.itemIngots.Silicon.name=硅锭
+item.itemIngots.Silicon.tooltip.line1=获得第一个硅锭.
+item.itemIngots.Silicon.tooltip.line2=使用石英坩埚.
+
+item.itemPlates.Aluminium.name=铝板
+item.itemLargePlates.Aluminium.name=铝大板
+item.itemDusts.Aluminium.name=铝粉
+item.itemIngots.Aluminium.name=铝锭
+
+item.itemPlates.ImpureAluminium.name=不纯铝板
+item.itemLargePlates.ImpureAluminium.name=不纯铝大板
+item.itemIngots.ImpureAluminium.name=不纯铝锭
+
+item.itemPlates.ClaySteel.name=粘土钢板
+item.itemLargePlates.ClaySteel.name=粘土钢大板
+item.itemDusts.ClaySteel.name=粘土钢粉
+item.itemIngots.ClaySteel.name=粘土钢锭
+
+item.itemPlates.Clayium.name=工业用粘土板
+item.itemLargePlates.Clayium.name=工业用粘土大板
+item.itemDusts.Clayium.name=工业用粘土粉
+item.itemIngots.Clayium.name=工业用粘土锭
+
+item.itemPlates.UltimateAlloy.name=终极合金板
+item.itemLargePlates.UltimateAlloy.name=终极合金大板
+item.itemDusts.UltimateAlloy.name=终极合金粉
+item.itemIngots.UltimateAlloy.name=终极合金锭
+
+item.itemPlates.Antimatter.name=反物质板
+item.itemLargePlates.Antimatter.name=反物质大板
+item.itemDusts.Antimatter.name=反物质粉
+item.itemGems.Antimatter.name=反物质
+
+item.itemPlates.PureAntimatter.name=高纯反物质板
+item.itemLargePlates.PureAntimatter.name=高纯反物质大板
+item.itemDusts.PureAntimatter.name=高纯反物质粉
+item.itemGems.PureAntimatter.name=高纯反物质
+
+item.itemPlates.OctupleEnergeticClay.name=八重充能粘土板
+item.itemLargePlates.OctupleEnergeticClay.name=八重充能粘土大板
+item.itemDusts.OctupleEnergeticClay.name=八重充能粘土粉
+
+item.itemPlates.OctuplePureAntimatter.name=八重高纯反物质板
+item.itemLargePlates.OctuplePureAntimatter.name=八重高纯反物质大板
+item.itemDusts.OctuplePureAntimatter.name=八重高纯反物质粉
+item.itemGems.OctuplePureAntimatter.name=八重高纯反物质
+
+item.itemGems.PureAntimatter1.name=压缩高纯反物质
+item.itemGems.PureAntimatter2.name=二重压缩高纯反物质
+item.itemGems.PureAntimatter3.name=三重压缩高纯反物质
+item.itemGems.PureAntimatter4.name=四重压缩高纯反物质
+item.itemGems.PureAntimatter5.name=五重压缩高纯反物质
+item.itemGems.PureAntimatter6.name=六重压缩高纯反物质
+item.itemGems.PureAntimatter7.name=七重压缩高纯反物质
+
+item.itemIngots.Iron.name=铁锭
+item.itemDusts.Iron.name=铁粉
+item.itemIngots.Gold.name=金锭
+item.itemDusts.Gold.name=金粉
+
+item.itemDusts.ImpureRedstone.name=不纯红石
+item.itemDusts.ImpureGlowstone.name=不纯荧石粉
+
+item.itemIngots.ImpureUltimateAlloy.name=终极化合物锭
+
+item.itemDusts.Magnesium.name=镁粉
+item.itemIngots.Magnesium.name=镁锭
+item.itemDusts.Sodium.name=钠粉
+item.itemIngots.Sodium.name=钠锭
+item.itemDusts.Lithium.name=锂粉
+item.itemIngots.Lithium.name=锂锭
+item.itemDusts.Zirconium.name=锆粉
+item.itemIngots.Zirconium.name=锆锭
+item.itemDusts.Zinc.name=锌粉
+item.itemIngots.Zinc.name=锌锭
+item.itemDusts.Manganese.name=锰粉
+item.itemIngots.Manganese.name=锰锭
+item.itemDusts.Calcium.name=钙粉
+item.itemIngots.Calcium.name=钙锭
+item.itemDusts.Potassium.name=钾粉
+item.itemIngots.Potassium.name=钾锭
+item.itemDusts.Nickel.name=镍粉
+item.itemIngots.Nickel.name=镍锭
+item.itemDusts.Beryllium.name=铍粉
+item.itemIngots.Beryllium.name=铍锭
+item.itemDusts.Lead.name=铅粉
+item.itemIngots.Lead.name=铅锭
+item.itemDusts.Hafnium.name=铪粉
+item.itemIngots.Hafnium.name=铪锭
+item.itemDusts.Chrome.name=铬粉
+item.itemIngots.Chrome.name=铬锭
+item.itemDusts.Titanium.name=钛粉
+item.itemIngots.Titanium.name=钛锭
+item.itemDusts.Strontium.name=锶粉
+item.itemIngots.Strontium.name=锶锭
+item.itemDusts.Barium.name=钡粉
+item.itemIngots.Barium.name=钡锭
+item.itemDusts.Copper.name=铜粉
+item.itemIngots.Copper.name=铜锭
+
+item.itemDusts.ImpureAluminium.name=不纯铝粉
+item.itemDusts.ImpureMagnesium.name=不纯镁粉
+item.itemDusts.ImpureSodium.name=不纯钠粉
+item.itemDusts.ImpureLithium.name=不纯锂粉
+item.itemDusts.ImpureZirconium.name=不纯锆粉
+item.itemDusts.ImpureZinc.name=不纯锌粉
+item.itemDusts.ImpureManganese.name=不纯锰粉
+item.itemDusts.ImpureCalcium.name=不纯钙粉
+item.itemDusts.ImpurePotassium.name=不纯钾粉
+item.itemDusts.ImpureNickel.name=不纯镍粉
+item.itemDusts.ImpureIron.name=不纯铁粉
+item.itemDusts.ImpureBeryllium.name=不纯铍粉
+item.itemDusts.ImpureLead.name=不纯铅粉
+item.itemDusts.ImpureHafnium.name=不纯铪粉
+item.itemDusts.ImpureChrome.name=不纯铬粉
+item.itemDusts.ImpureTitanium.name=不纯钛粉
+item.itemDusts.ImpureStrontium.name=不纯锶粉
+item.itemDusts.ImpureBarium.name=不纯钡粉
+item.itemDusts.ImpureCopper.name=不纯铜粉
+
+item.itemIngots.ImpureOsmium.name=锇锭
+
+item.itemIngots.Zincalminium.name=锌铝化合锭
+item.itemDusts.Zincalminium.name=锌铝化合粉
+item.itemIngots.Zinconium.name=锌锆化合锭
+item.itemDusts.Zinconium.name=锌锆化合粉
+item.itemPlates.AZ91D.name=AZ91D合金板
+item.itemLargePlates.AZ91D.name=AZ91D合金大板
+item.itemDusts.AZ91D.name=AZ91D合金粉
+item.itemIngots.AZ91D.name=AZ91D合金锭
+item.itemPlates.ZK60A.name=ZK60A合金板
+item.itemLargePlates.ZK60A.name=ZK60Ae合金大板
+item.itemDusts.ZK60A.name=ZK60A合金粉
+item.itemIngots.ZK60A.name=ZK60A合金锭
+
+item.itemIngots.Rubidium.name=铷锭
+item.itemIngots.Caesium.name=铯锭
+item.itemIngots.Francium.name=钫锭
+item.itemIngots.Radium.name=镭锭
+item.itemIngots.Actinium.name=锕锭
+item.itemIngots.Thorium.name=钍锭
+item.itemIngots.Protactinium.name=镤锭
+item.itemIngots.Uranium.name=铀锭
+item.itemIngots.Neptunium.name=镎锭
+item.itemIngots.Plutonium.name=钚锭
+item.itemIngots.Americium.name=镅锭
+item.itemIngots.Curium.name=锔锭
+
+item.itemIngots.Lanthanum.name=镧锭
+item.itemIngots.Cerium.name=铈锭
+item.itemIngots.Praseodymium.name=镨锭
+item.itemIngots.Neodymium.name=钕锭
+item.itemIngots.Promethium.name=钷锭
+item.itemIngots.Samarium.name=钐锭
+item.itemIngots.Europium.name=铕锭
+
+item.itemIngots.Vanadium.name=钒锭
+
+item.itemIngots.Cobalt.name=钴锭
+item.itemIngots.Palladium.name=钯锭
+
+item.itemIngots.Silver.name=银锭
+item.itemIngots.Platinum.name=铂锭
+item.itemIngots.Iridium.name=铱锭
+item.itemIngots.Osmium.name=锇锭
+item.itemIngots.Rhenium.name=铼锭
+
+item.itemIngots.Tantalum.name=钽锭
+item.itemIngots.Tungsten.name=钨锭
+item.itemIngots.Molybdenum.name=钼锭
+
+item.itemIngots.Tin.name=锡锭
+item.itemIngots.Antimony.name=锑锭
+item.itemIngots.Bismuth.name=铋锭
+
+item.itemIngots.Bronze.name=青铜锭
+item.itemDusts.Bronze.name=青铜粉
+item.itemIngots.Brass.name=黄铜锭
+item.itemDusts.Brass.name=黄铜粉
+item.itemIngots.Electrum.name=琥珀金锭
+item.itemDusts.Electrum.name=琥珀金粉
+item.itemIngots.Invar.name=因瓦合金锭
+item.itemDusts.Invar.name=因瓦合金粉
+
+item.itemIngots.Steel.name=钢锭
+item.itemDusts.Steel.name=钢粉
+
+item.itemDusts.Carbon.name=碳粉
+item.itemDusts.Phosphorus.name=磷粉
+item.itemDusts.Sulfur.name=硫磺
+item.itemDusts.Saltpeter.name=硝石
+
+item.itemDusts.Coal.name=煤粉
+item.itemDusts.Charcoal.name=木炭粉
+item.itemDusts.Lapis.name=青金石粉
+
+item.itemDusts.OrganicClay.name=有机粘土

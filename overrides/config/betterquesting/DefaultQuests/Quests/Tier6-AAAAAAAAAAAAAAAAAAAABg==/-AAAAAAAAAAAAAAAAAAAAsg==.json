@@ -2,28 +2,24 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 33
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 35
+      "questIDLow:4": 155
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "高密度粘土重すぎるから早めに欲しい",
+      "desc:8": "Tier 7への道",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 153,
         "OreDict:8": "",
-        "id:8": "clayium:itemClayPickaxe"
+        "id:8": "clayium:itemDusts"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "粘土ツルハシ",
+      "name:8": "不純なマンガンの粉",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -35,7 +31,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 40,
+  "questIDLow:4": 178,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -48,9 +44,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 153,
           "OreDict:8": "",
-          "id:8": "clayium:itemClayPickaxe"
+          "id:8": "clayium:itemDusts"
         }
       },
       "taskID:8": "bq_standard:retrieval"
