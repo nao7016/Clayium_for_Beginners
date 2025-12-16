@@ -9,6 +9,10 @@
       "questIDLow:4": -4614004062537303833
     },
     "2:10": {
+      "questIDHigh:4": 4240376999759201807,
+      "questIDLow:4": -8508561438736340122
+    },
+    "3:10": {
       "questIDHigh:4": -6525776486315243327,
       "questIDLow:4": -6236924936916439893
     }
@@ -25,7 +29,7 @@
         "id:8": "betterquesting:placeholder"
       },
       "isMain:1": 0,
-      "isSilent:1": 0,
+      "isSilent:1": 1,
       "lockedProgress:1": 0,
       "name:8": "最後に - キーコンフィグについて",
       "questLogic:8": "AND",

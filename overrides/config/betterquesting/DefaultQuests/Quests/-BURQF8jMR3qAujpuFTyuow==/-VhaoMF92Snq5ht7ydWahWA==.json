@@ -17,7 +17,7 @@
         "id:8": "minecraft:fire"
       },
       "isMain:1": 0,
-      "isSilent:1": 0,
+      "isSilent:1": 1,
       "lockedProgress:1": 0,
       "name:8": "難易度設定について",
       "questLogic:8": "AND",

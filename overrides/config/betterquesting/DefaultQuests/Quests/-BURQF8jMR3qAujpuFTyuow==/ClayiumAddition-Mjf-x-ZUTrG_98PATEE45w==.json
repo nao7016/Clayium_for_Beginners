@@ -17,7 +17,7 @@
         "id:8": "clayium:itemClayParts"
       },
       "isMain:1": 0,
-      "isSilent:1": 0,
+      "isSilent:1": 1,
       "lockedProgress:1": 0,
       "name:8": "Clayium Additionについて",
       "questLogic:8": "AND",

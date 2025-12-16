@@ -42,8 +42,10 @@
       "name": "Pickaxe",
       "icon": "minecraft:diamond_pickaxe",
       "toollist": [
-        "clayium:clay_pickaxe",
-        "clayium:clay_shovel",
+        "clayium:itemClayPickaxe",
+        "clayium:itemClayShovel",
+        "clayium:itemClaySteelPickaxe",
+        "clayiumadditions:clay_mining_hammer",
         "minecraft:diamond_pickaxe",
         "minecraft:golden_pickaxe",
         "minecraft:iron_pickaxe",
@@ -91,6 +93,8 @@
       "name": "Shovel",
       "icon": "minecraft:diamond_shovel",
       "toollist": [
+        "clayium:itemClayShovel",
+        "clayium:itemClaySteelShovel",
         "minecraft:diamond_shovel",
         "minecraft:golden_shovel",
         "minecraft:iron_shovel",
