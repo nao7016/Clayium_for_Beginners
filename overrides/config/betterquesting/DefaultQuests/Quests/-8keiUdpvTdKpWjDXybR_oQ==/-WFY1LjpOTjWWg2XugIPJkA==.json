@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7864100059507899682,
+      "questIDLow:4": -8394919827681358952
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "各種鉱石にレーザーを照射すると、インゴットのブロックになります\n例えば鉄鉱石は鉄ブロックに変化します\nまたレッドストーンやラピスラズリなどであっても可能です\n\nただし粘土鉱石類は対応していません",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:diamond_block"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "(おまけ) 鉱石からブロックにしよう",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 0,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "SECRET"
+    }
+  },
+  "questIDHigh:4": 6365333595997752885,
+  "questIDLow:4": -7601119671038522992,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

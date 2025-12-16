@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 1679896851411191070,
+      "questIDLow:4": -5175990755930741681
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "エネルギー粘土励起装置は全てのTierでマシン筐体の素材になります\nまた、のちに登場するレーザーのためにもかなりの量を使用します\n\nこのためにエネルギー粘土励起装置を全自動で作れるラインを構築しておくのも一つの手です\nとはいえ必須ではないです お好みでどうぞ",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1027,
+        "OreDict:8": "",
+        "id:8": "clayium:itemMisc"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "(おまけ) エネルギー粘土励起装置生産ラインを作ろう",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 0,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 4246794287753937369,
+  "questIDLow:4": -8860010988968764524,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

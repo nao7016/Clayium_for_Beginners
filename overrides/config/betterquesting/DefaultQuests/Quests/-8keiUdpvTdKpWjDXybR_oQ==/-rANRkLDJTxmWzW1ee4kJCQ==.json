@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 1679896851411191070,
+      "questIDLow:4": -5175990755930741681
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "遠心分離機は砂利から粘土を作ることができます\n粉砕機は丸石から砂利を作ることができます\n丸石製造機は丸石を自動生産できます\n\nこの3つから、粘土を無限化することができます\n\nまた、4CE程度と各加工機械があれば、全自動粘土圧縮機Mk Iを先取りして作ることができます\nこれを使うとクエスト本編で書かれているコンデンサー部分を丸ごと省略できます\nクエスト本編で書かれているラインよりも安あがりかも…？",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": "",
+        "id:8": "clayium:blockCompressedClay"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "全自動粘土製造ラインを作ろう",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 0,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": -6051903792372691175,
+  "questIDLow:4": -7580282345227745015,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

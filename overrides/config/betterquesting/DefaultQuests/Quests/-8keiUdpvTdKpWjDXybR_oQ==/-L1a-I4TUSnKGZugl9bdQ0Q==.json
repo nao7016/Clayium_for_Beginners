@@ -1,0 +1,67 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -463699679272809712,
+      "questIDLow:4": -5431495678009223848
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "この3つの機械は、高密度粘土鉱石を加工して粘土に出来る機械です\n高密度粘土鉱石からは工業用粘土が出来ます\n工業用粘土は高密度粘土81個分になるので、粘土不足に当分悩まされることはないでしょう\n\nまた、高密度粘土鉱石大からは発展工業用粘土が出来ます\nこれは工業用粘土9個分になります",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockDenseClayGrinder"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "粉砕機 / コンデンサー / 分解機を作ろう",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 0,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 3411122827541367410,
+  "questIDLow:4": -8762060775268855599,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 1,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "clayium:blockDenseClayGrinder"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "clayium:blockDenseClayCondenser"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "clayium:blockDenseClayDecomposer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

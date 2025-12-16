@@ -1,0 +1,65 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4915131158698213560,
+      "questIDLow:4": -6414304630701749254
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "ストレージコンテナは1種類のアイテムを大量に保管できます\n要はStorage Drawersです 容量は65536個です\n今までに出てきた粘土粉やら、粘土製造ラインで詰まっている工業用粘土などといったアイテムを貯めこんでおけます\n\nまた、Tier 7で容量が21億に出来ます",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 256,
+        "OreDict:8": "",
+        "id:8": "clayium:blockStorageContainer",
+        "tag:10": {
+          "TileEntityNBTTag:10": {
+            "MaxStorageSize:3": 65536
+          }
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "ストレージコンテナを作ろう",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 0,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": -8136174377712073222,
+  "questIDLow:4": -9057763014225585028,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 1,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 256,
+          "OreDict:8": "",
+          "id:8": "clayium:blockStorageContainer",
+          "tag:10": {
+            "TileEntityNBTTag:10": {
+              "MaxStorageSize:3": 65536
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

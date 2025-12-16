@@ -1,0 +1,55 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 1679896851411191070,
+      "questIDLow:4": -5175990755930741681
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "ソーラー粘土製造機は太陽の力で粘土のTierを上げることができます\nかなり強力で、これがないとこの後はほぼ進まないと言ってもいいです\n実は夜でも動き続けますが、上面がブロックで防がれていると稼働しません\n\nこれを作るためにはおよそ80CE程度必要になる計算です\nこれを工面するためにはどうするか… 並列化? 機械のTierを上げる?\n色々工夫してみてください 恐らく序盤最大の鬼門です\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockSolarClayFabricatorMK1"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "ソーラー粘土製造機 Mk Iを作ろう",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 0,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 4915131158698213560,
+  "questIDLow:4": -6414304630701749254,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 1,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "clayium:blockSolarClayFabricatorMK1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
