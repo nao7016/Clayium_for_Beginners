@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "ボタンがないんだけど！！！！",
+      "desc:8": "実はその5\nボタンがないんだけど！！！",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -17,7 +17,7 @@
         "id:8": "clayium:blockSimpleBendingMachine"
       },
       "isMain:1": 0,
-      "isSilent:1": 0,
+      "isSilent:1": 1,
       "lockedProgress:1": 0,
       "name:8": "簡易プレート作成機",
       "questLogic:8": "AND",
@@ -43,7 +43,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 0,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "clayium:blockSimpleBendingMachine"

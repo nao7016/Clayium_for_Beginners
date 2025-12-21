@@ -2,43 +2,43 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 0
+      "questIDLow:4": 117
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "粘土鉱石をシルクタッチで掘ることができます\n粘土鉱石のクエスト埋めにぜひどうぞ",
+      "desc:8": "輸送速度は同じで内部のスロット数が1つになったバッファーです\n何かに使えるかも…?",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "clayiumadditions:clay_mining_hammer"
+        "id:8": "clayium:blockBasicBuffer"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "粘土採掘ハンマー",
+      "name:8": "制限バッファー",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
       "taskLogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "questIDHigh:4": 5756941709464783655,
-  "questIDLow:4": -8074372005346271624,
+  "questIDHigh:4": -5420243100230857466,
+  "questIDLow:4": -5809209915821041007,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -46,7 +46,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "clayiumadditions:clay_mining_hammer"
+          "id:8": "clayiumadditions:blockBasicClayBufferOne"
         }
       },
       "taskID:8": "bq_standard:retrieval"

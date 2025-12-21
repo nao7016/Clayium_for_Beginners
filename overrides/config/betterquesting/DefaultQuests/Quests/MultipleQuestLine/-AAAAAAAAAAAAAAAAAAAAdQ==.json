@@ -1,0 +1,55 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 118
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "アイテムパイプになりますが、癖が強いです\nイメージとしては「機能がない機械」に近いです\nもしくは「自動搬入・自動搬出口がつくチェスト」です\n粘土めん棒や粘土スライサーで搬入出設定をしてあげましょう\n\nチェストやバッファーからは搬入口を付ければまず搬入できますが、機械類からは搬出口から出ないと搬入できないです 気をつけましょう\n\n粘土へらを使えばバッファに限らず見た目をパイプ化できます\n判定も小さくなって周りの搬入出設定がしやすくなるほか、見た目も良くなります\nパイプ化状態でも粘土めん棒・粘土スライサーを持てば搬入出設定がみれます\n\n粘土製造ラインで使うことになるでしょうが、恐らくボトルネックになるのはバッファーです\nTierが高いバッファーは輸送速度が上がるので、そこを先に作ってしまうのも一つの手です",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockBasicBuffer"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "バッファー",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 117,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "clayium:blockBasicBuffer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,44 +1,39 @@
 {
-  "preRequisites:9": {
-    "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 0
-    }
-  },
+  "preRequisites:9": {},
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "粘土鉱石をシルクタッチで掘ることができます\n粘土鉱石のクエスト埋めにぜひどうぞ",
+      "desc:8": "Paxelはピッケル・斧・ショベル・剣を一つにまとめた多機能ツールです\n耐久値は普通のツールの4倍！\nインベントリを整理しよう",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "clayiumadditions:clay_mining_hammer"
+        "id:8": "m2paxel:diamond_paxel"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "粘土採掘ハンマー",
+      "name:8": "Paxel",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
       "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS"
+      "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 5756941709464783655,
-  "questIDLow:4": -8074372005346271624,
+  "questIDHigh:4": 1432574519110027995,
+  "questIDLow:4": -8886948452159584492,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -46,7 +41,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "clayiumadditions:clay_mining_hammer"
+          "id:8": "m2paxel:diamond_paxel"
         }
       },
       "taskID:8": "bq_standard:retrieval"

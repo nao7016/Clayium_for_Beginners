@@ -11,138 +11,170 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Clayium for Beginners",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "",
   "files": [
     {
       "projectID": 688899,
       "fileID": 7332027,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 988067,
       "fileID": 7196980,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 242568,
       "fileID": 2293402,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 243111,
       "fileID": 2353582,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 232131,
       "fileID": 2277197,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 67133,
       "fileID": 2435506,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 706505,
-      "fileID": 6596614,
-      "required": true
+      "fileID": 7356851,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 746279,
       "fileID": 7304831,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 782158,
       "fileID": 7311920,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 826970,
       "fileID": 6953804,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 235716,
       "fileID": 2260793,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 358228,
-      "fileID": 7332039,
-      "required": true
+      "fileID": 7356810,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 220954,
       "fileID": 2313730,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 73488,
       "fileID": 2230518,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 1317667,
-      "fileID": 7331297,
-      "required": true
+      "fileID": 7360527,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 237664,
       "fileID": 2394877,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 71620,
       "fileID": 4408526,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 239197,
       "fileID": 2838720,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 79287,
       "fileID": 2270923,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 32274,
       "fileID": 6706111,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 688894,
-      "fileID": 7332047,
-      "required": true
+      "fileID": 7342094,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 230976,
       "fileID": 2272838,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 650242,
       "fileID": 6436962,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 229316,
       "fileID": 2233250,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 238403,
       "fileID": 2356820,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 224712,
       "fileID": 2298772,
-      "required": true
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1410191,
+      "fileID": 7360814,
+      "required": true,
+      "isLocked": false
     }
   ],
   "overrides": "overrides"

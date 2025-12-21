@@ -2,24 +2,28 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 0
+      "questIDLow:4": 96
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 97
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "粘土鉱石をシルクタッチで掘ることができます\n粘土鉱石のクエスト埋めにぜひどうぞ",
+      "desc:8": "なんだかまた怪しいのが出てきたな",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "clayiumadditions:clay_mining_hammer"
+        "id:8": "clayium:blockEnergeticClayCondenser"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "粘土採掘ハンマー",
+      "name:8": "エネルギー粘土凝縮機 Mk I",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +34,8 @@
       "visibility:8": "ALWAYS"
     }
   },
-  "questIDHigh:4": 5756941709464783655,
-  "questIDLow:4": -8074372005346271624,
+  "questIDHigh:4": 0,
+  "questIDLow:4": 98,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -46,7 +50,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "clayiumadditions:clay_mining_hammer"
+          "id:8": "clayium:blockEnergeticClayCondenser"
         }
       },
       "taskID:8": "bq_standard:retrieval"

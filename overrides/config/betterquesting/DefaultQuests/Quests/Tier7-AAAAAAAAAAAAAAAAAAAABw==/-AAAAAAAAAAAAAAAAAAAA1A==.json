@@ -3,6 +3,10 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 194
+    },
+    "1:10": {
+      "questIDHigh:4": -4127380022031725885,
+      "questIDLow:4": -6388168762806834202
     }
   },
   "properties:10": {
