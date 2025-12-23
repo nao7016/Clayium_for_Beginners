@@ -11,3 +11,4 @@
 [NEI/collapsibleitems.cfg]/* $format=simple
 [NEI/hiddenitems.cfg]/* $format=simple
 [veinminer/tools-and-blocks.json]/* $format=simple
+!clayiumadditions.cfg/recipe/EnableQoLRecipes

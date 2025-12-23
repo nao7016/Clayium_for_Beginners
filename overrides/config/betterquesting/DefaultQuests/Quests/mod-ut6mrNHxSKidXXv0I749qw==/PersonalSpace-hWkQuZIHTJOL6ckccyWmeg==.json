@@ -3,18 +3,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "",
+      "desc:8": "Personal Spaceはカスタマイズ性の高いディメンションを生成することができます\n生成できる地形はスーパーフラットやvoid(空島)です\n\nまた、Foliageで植物を、Treeで木を生成することができます\n天気や時間、空の色なども制御することができます\n\n自分だけの世界で粘土工場を組み立てよう\n\n",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "minecraft:stone"
+        "id:8": "personalspace:personalPortal"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Templete",
+      "name:8": "Personal Space",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -25,8 +25,8 @@
       "visibility:8": "ALWAYS"
     }
   },
-  "questIDHigh:4": -1929564532244921570,
-  "questIDLow:4": -8388575191253223109,
+  "questIDHigh:4": -8833510804905571181,
+  "questIDLow:4": -8364933708835871110,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -41,14 +41,10 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:stone"
+          "id:8": "personalspace:personalPortal"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "index:3": 1,
-      "taskID:8": "bq_standard:checkbox"
     }
   }
 }
