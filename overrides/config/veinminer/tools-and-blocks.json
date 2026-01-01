@@ -63,9 +63,14 @@
         "minecraft:wooden_pickaxe"
       ],
       "blocklist": [
+        "clayium:blockCAReactorCoil",
+        "clayium:blockCAReactorHull",
         "clayium:blockClayOre/0",
         "clayium:blockClayOre/1",
         "clayium:blockClayOre/2",
+        "clayium:blockMachineHull",
+        "clayium:blockOverclocker",
+        "clayium:blockResonator",
         "minecraft:coal_ore",
         "minecraft:cobblestone_wall",
         "minecraft:diamond_ore",
@@ -117,6 +122,7 @@
         "minecraft:wooden_shovel"
       ],
       "blocklist": [
+        "clayium:blockCompressedClay",
         "minecraft:clay",
         "minecraft:gravel"
       ]

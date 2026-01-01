@@ -1,7 +1,5 @@
-var chest = <minecraft:chest>;
-
-recipes.addShaped(<clayiumadditions:mining_storage_box>, [
-    [chest, chest, chest],
-    [chest, <minecraft:cobblestone>, chest],
-    [chest, chest, chest]
+recipes.addShapedMirrored(<betterbuilderswands:wandUnbreakable:12>, [
+    [null, null, <clayium:itemIngots:256>],
+    [null, <clayium:itemDenseClayParts:1>, null],
+    [<clayium:itemDenseClayParts:1>, null, null]
 ]);

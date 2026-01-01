@@ -33,6 +33,9 @@ key_key.hotbar.9:10
 key_backhand.swap_offhand:33
 key_key.personalBackpack:0
 key_key.betterquesting.quests:0
+key_HoloGlasses:0
+key_key.serverutilities.nbt:0
+key_key.serverutilities.trash:0
 key_veinminer.key.enable:0
 key_Reload Shaders:0
 key_Toggle Shaders:0
@@ -48,11 +51,11 @@ key_key.craftingtweaks.toggleButtons:0
 key_key.craftingtweaks.compress:0
 key_key.craftingtweaks.decompress:0
 key_key.clayiumadditions.storagebox:0
-key_waila.keybind.wailaconfig:0
-key_waila.keybind.wailadisplay:0
-key_waila.keybind.liquid:0
-key_waila.keybind.recipe:0
-key_waila.keybind.usage:0
+key_waila.keybind.wailaconfig:82
+key_waila.keybind.wailadisplay:79
+key_waila.keybind.liquid:80
+key_waila.keybind.recipe:81
+key_waila.keybind.usage:75
 key_key.fastBlockPlacing.desc:0
 key_key.sort_config:0
 key_key.sort_nogui:0

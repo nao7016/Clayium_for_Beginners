@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Clayium for Beginners",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "",
   "files": [
     {
@@ -100,7 +100,7 @@
     },
     {
       "projectID": 1317667,
-      "fileID": 7391575,
+      "fileID": 7403303,
       "required": true,
       "isLocked": false
     },
@@ -142,7 +142,7 @@
     },
     {
       "projectID": 688894,
-      "fileID": 7387586,
+      "fileID": 7402378,
       "required": true,
       "isLocked": false
     },
