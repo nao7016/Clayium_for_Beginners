@@ -12,7 +12,7 @@
         "id:8": "holoinventory:Hologlasses"
       },
       "isMain:1": 0,
-      "isSilent:1": 0,
+      "isSilent:1": 1,
       "lockedProgress:1": 0,
       "name:8": "HoloInventory",
       "questLogic:8": "AND",

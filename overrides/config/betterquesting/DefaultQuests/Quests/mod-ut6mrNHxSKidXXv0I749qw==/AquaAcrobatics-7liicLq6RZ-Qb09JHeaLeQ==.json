@@ -3,18 +3,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Find Itはアイテムにカーソルを合わせて設定したキーを押すと、 そのアイテムがどこにあるかを示してくれます\nアイテムを探し回る日々からはおさらば\n\nversion 0.2.1で追加",
+      "desc:8": "Aqua AcrobaticsはMinecraft 1.13以降の泳ぎを追加するmodです\n探索に便利\n\nversion 0.2.2 で追加",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "betterquesting:placeholder"
+        "id:8": "minecraft:fish"
       },
       "isMain:1": 0,
       "isSilent:1": 1,
       "lockedProgress:1": 0,
-      "name:8": "Find It",
+      "name:8": "Aqua Acrobatics",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -25,8 +25,8 @@
       "visibility:8": "ALWAYS"
     }
   },
-  "questIDHigh:4": 246253223665159188,
-  "questIDLow:4": -7353467672301252521,
+  "questIDHigh:4": -1272088289679358561,
+  "questIDLow:4": -8039119634380190855,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {

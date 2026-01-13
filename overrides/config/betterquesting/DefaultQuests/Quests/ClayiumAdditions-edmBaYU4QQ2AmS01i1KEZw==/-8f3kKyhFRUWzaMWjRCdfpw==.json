@@ -2,24 +2,24 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 263
+      "questIDLow:4": 0
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "シンクロパーツを取り付けたインターフェースを同期させる機械\n\n・先に同期したい機械に右クリックしてから\n・あとにシンクロパーツを取り付けたインターフェースに右クリック\n\n赤石インターフェースはシンクロパーツがなくてもこれだけでシンクロさせられるよ\n\n順番間違えないようにね！",
+      "desc:8": "3x3の範囲を一気に掘ることができます\nブランチマイニングのおともにぜひ",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "clayium:itemSynchronizer"
+        "id:8": "clayiumadditions:clay_3x3_hammer"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "シンクロナイザー",
+      "name:8": "粘土範囲ハンマー",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "ALWAYS"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 264,
+  "questIDHigh:4": -1009399867450768059,
+  "questIDLow:4": -5518944038328770649,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -46,7 +46,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "clayium:itemSynchronizer"
+          "id:8": "clayiumadditions:clay_3x3_hammer"
         }
       },
       "taskID:8": "bq_standard:retrieval"

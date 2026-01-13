@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 216
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "・レーザーはレーザーリフレクターで向きを変えられる\n・複数のレーザーを一つのリフレクターに照射するとまとめられて本数が足し算される\n・レーザーにはエネルギー値というパラメータがある\n・レーザーをまとめるほどエネルギー値は増える\n\n・レーザーには複数の色がある\n・複数の色がまとめられた時、 色ごとにエネルギー値が計算された後、 掛け算される\n\n・まとめられるのはリフレクターを通った回数が10回までのレーザー\n・それ以上は各色ごとにまとめられた本数が一番多いレーザーをそのまま通す\n・§3§2§3青15本§2緑3本§rと§3青8本§2緑10本§rだと§3青15本§2緑10本§rになる\n\n・レーザーには粘土反応炉の加工を早める効果がある\n・加工速度は(エネルギー値)倍になる\n\n・大体全ての色を同じぐらいの本数に、 青を気持ち多めにするとエネルギー値が伸びやすい",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:book"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "レーザーの簡単なまとめ",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": -4780569515358666337,
+  "questIDLow:4": -5270991606345143820,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 7618613813973566618,
+      "questIDLow:4": -7102703704224394778
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "集積回路は1つ作るのに1分かかるTier 7の回路です\nしかし、Tier 8からは回路の素材として大量に要求されます\nではこれの解決策としてはどうすればいいでしょうか\n\n答えは並列して§3§4§c§r§nパッシブ生産する§r、です (パッシブ生産とは全自動で生産すること)\n目安としては集積回路を作る組立機が10連以上あればいいです\n推奨は16連、余裕があれば64連にも挑戦してみてもいいかも\n\n集積回路の素材として必要なシリコンインゴットは、§n粘土高炉を使って生産する方式§rが一番自動化しやすいです てかそれしかない\n粘土高炉はなんと構造の一部を共有できます ただしインターフェースは共有すると搬入出がおかしくなるのでやらないほうがいい\nうまくつかって必要な筐体の数を減らしましょう\n\n活性化粘土粉については遠心分離が一番強いです 遠心分離では他の素材に必要な各種粘土粉も集められるのでいい感じ 不要なアイテムは虚空コンテナに捨ててしまいましょう\n\n一番の難題としてCEの確保がありますが、これは§b§3粘土製造機§rで解決できます\n\nアイテム移動には複線バッファが便利です 複数種類の素材が必要な時に詰まらせられずに送れます まさに今みたいなときにつかえる",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "OreDict:8": "",
+        "id:8": "clayium:itemMisc"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "(重要) (おまけ) 集積回路をパッシブで作ろう",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 0,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "SECRET"
+    }
+  },
+  "questIDHigh:4": -5602801284395481965,
+  "questIDLow:4": -7731494353566683169,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "clayium:itemMisc"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

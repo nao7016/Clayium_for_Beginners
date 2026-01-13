@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 263
+      "questIDHigh:4": 182146855737706487,
+      "questIDLow:4": -5832416706698963250
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "シンクロパーツを取り付けたインターフェースを同期させる機械\n\n・先に同期したい機械に右クリックしてから\n・あとにシンクロパーツを取り付けたインターフェースに右クリック\n\n赤石インターフェースはシンクロパーツがなくてもこれだけでシンクロさせられるよ\n\n順番間違えないようにね！",
+      "desc:8": "移動速度を+80%する\n意外とまともに収まってる\n\nby: Clayium Additions",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 98,
         "OreDict:8": "",
-        "id:8": "clayium:itemSynchronizer"
+        "id:8": "clayiumadditions:itemGadget"
       },
       "isMain:1": 0,
-      "isSilent:1": 0,
+      "isSilent:1": 1,
       "lockedProgress:1": 0,
-      "name:8": "シンクロナイザー",
+      "name:8": "粘土ガジェット [移動速度 III]",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "ALWAYS"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 264,
+  "questIDHigh:4": 6290516082228612965,
+  "questIDLow:4": -7236614940594528234,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -44,9 +44,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 98,
           "OreDict:8": "",
-          "id:8": "clayium:itemSynchronizer"
+          "id:8": "clayiumadditions:itemGadget"
         }
       },
       "taskID:8": "bq_standard:retrieval"

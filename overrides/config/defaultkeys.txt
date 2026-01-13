@@ -33,6 +33,7 @@ key_key.hotbar.9:10
 key_backhand.swap_offhand:33
 key_key.personalBackpack:0
 key_key.betterquesting.quests:0
+key_pickGrave.settings.0:0
 key_HoloGlasses:0
 key_key.serverutilities.nbt:0
 key_key.serverutilities.trash:0
@@ -42,6 +43,7 @@ key_Toggle Shaders:0
 key_Shaderpack Selection Screen:0
 key_Print GLSM Debug:0
 key_Zoom:0
+key_key.aquaacrobatics.toggle_crawling:0
 key_bbw.key.mode:0
 key_bbw.key.fluidmode:0
 key_key.craftingtweaks.rotate:0

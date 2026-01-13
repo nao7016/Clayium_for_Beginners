@@ -11,12 +11,12 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Clayium for Beginners",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "",
   "files": [
     {
       "projectID": 688899,
-      "fileID": 7374597,
+      "fileID": 7448244,
       "required": true,
       "isLocked": false
     },
@@ -64,13 +64,13 @@
     },
     {
       "projectID": 782158,
-      "fileID": 7311920,
+      "fileID": 7432190,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 826970,
-      "fileID": 6953804,
+      "fileID": 7446239,
       "required": true,
       "isLocked": false
     },
@@ -82,7 +82,7 @@
     },
     {
       "projectID": 358228,
-      "fileID": 7388744,
+      "fileID": 7439870,
       "required": true,
       "isLocked": false
     },
@@ -100,7 +100,7 @@
     },
     {
       "projectID": 1317667,
-      "fileID": 7403303,
+      "fileID": 7454234,
       "required": true,
       "isLocked": false
     },
@@ -113,6 +113,12 @@
     {
       "projectID": 71620,
       "fileID": 4408526,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1330962,
+      "fileID": 7076940,
       "required": true,
       "isLocked": false
     },
@@ -141,8 +147,14 @@
       "isLocked": false
     },
     {
+      "projectID": 838635,
+      "fileID": 6640219,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 688894,
-      "fileID": 7402378,
+      "fileID": 7425143,
       "required": true,
       "isLocked": false
     },
@@ -184,7 +196,7 @@
     },
     {
       "projectID": 1410191,
-      "fileID": 7360814,
+      "fileID": 7432577,
       "required": true,
       "isLocked": false
     }
