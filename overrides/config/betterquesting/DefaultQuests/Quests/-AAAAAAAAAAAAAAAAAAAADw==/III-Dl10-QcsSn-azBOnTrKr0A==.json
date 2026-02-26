@@ -1,0 +1,59 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 3142083709984196047,
+      "questIDLow:4": -6561347520964899015
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 250
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "ジャンプ力を3段にする\nこれいるのかなぁ\n\nby: Clayium Additions",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 146,
+        "OreDict:8": "",
+        "id:8": "clayiumadditions:itemGadget"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "粘土ガジェット [跳躍 III]",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 1035112102281103999,
+  "questIDLow:4": -7292432087318877232,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 146,
+          "OreDict:8": "",
+          "id:8": "clayiumadditions:itemGadget"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
