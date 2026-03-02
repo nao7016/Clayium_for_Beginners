@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 460
+      "questIDHigh:4": 9070849709259967838,
+      "questIDLow:4": -7255980149981095194
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "粉砕機、コンデンサー、遠心分離機は共通の倍率を持っています\nそれぞれ左からTier、クラフト時間、時間当たりの消費CE倍率、総消費CE倍率です\n\n~4 | 1 | x1 | 1.0\n5 | 1/4 | x5 | 1.25\n6 | 1/16 | x25 | 1.5625\n10 | 1/100 | x250 | 2.5\n\n[img height\u003d100]clayium_for_beginners:craft_normal_machines.png[/img]",
+      "desc:8": "通常の機械における自動搬入出の速度表です\n左から、Tier、一度に搬入出出来る個数、搬入出する間隔、速度倍率です\nTier 4までを倍率1と置いています\n\n ~4 | 8 | 20 | 1\n 5 | 16 | 2 | 20\n 6~ | 64 | 1 | 160\n\n[img height\u003d100]clayium_for_beginners:move_normal_machines.png[/img]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "clayium:blockBasicGrinder"
+        "id:8": "clayium:blockBasicBendingMachine"
       },
       "isMain:1": 0,
       "isSilent:1": 1,
       "lockedProgress:1": 0,
-      "name:8": "粉砕機 / コンデンサー / 遠心分離機",
+      "name:8": "通常の機械",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "ALWAYS"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 461,
+  "questIDHigh:4": 2067862202099189761,
+  "questIDLow:4": -7057771693445813972,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {

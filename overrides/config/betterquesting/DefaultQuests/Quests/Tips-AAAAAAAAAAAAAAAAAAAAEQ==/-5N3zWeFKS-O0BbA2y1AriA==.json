@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 9070849709259967838,
+      "questIDLow:4": -7255980149981095194
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "バッファーのみ、通常の機械とは違う速度で搬入出出来ます\nバッファー側から自動搬出させてあげれば、機械の自動搬入を上回る速度で搬入できるため、Tierが低い機械機械にTierが高いバッファーを繋げたときには覚えておくといいかもしれません\n機械から搬出するときも同じです\n\nそれぞれのTierにおける速度表です\n左から、Tier、一度に搬入出出来る個数、搬入出する間隔、速度倍率です\nTier 4の場合を倍率1と置いています\n\n 4 | 1 | 8 | 1\n 5 | 4 | 4 | 8\n 6 | 16 | 2 | 64\n 7 | 64 | 1 | 512\n 8 | 128 | 1 | 1,024\n 9 | 192 | 1 | 1,536\n10 | 256 | 1 | 2,048\n11 | 512 | 1 | 4,096\n12 | 1,024 | 1 | 8,192\n13 | 6,400 | 1 | 51,200\n\n[img height\u003d200]clayium_for_beginners:move_buffer.png[/img]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "clayium:blockBasicBuffer"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "バッファーのみ",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": -1955139095851545629,
+  "questIDLow:4": -5474776022613218424,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
